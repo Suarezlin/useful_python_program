@@ -127,3 +127,4 @@ if __name__ == '__main__':
     bilibili = Bilibili()
     bilibili.login()
     bilibili.get_favorite_list('433351')
+    bilibili.get_favorite_list('433351')

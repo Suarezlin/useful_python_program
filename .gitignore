@@ -2,3 +2,7 @@ dist
 build
 *.txt
 *.png
+*.py[cod]
+*.so
+*.egg
+*.egg-info

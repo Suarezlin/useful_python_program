@@ -6,6 +6,7 @@ import prettytable
 import pyquery
 import time
 
+
 class DEAN:
     def __init__(self):
         self.login = 'https://cas.xjtu.edu.cn/login'
@@ -96,6 +97,33 @@ class DEAN:
         x.add_row(["学院", item[6]])
         print(x)
 
+    def getSchedule(self):
+        text = self.session.get(self.classurl).text
+        pattern = re.compile('<div class="fcSpanDiv"></div></div>(.*?)</td>', re.S)
+        items = re.findall(pattern, text)
+        p = re.compile('&nbsp;(.*?)<br>(.*?)<br>(.*?)&nbsp;(.*?)&nbsp;(.*?)<br>(.*?)\n')
+        schedual = []
+        for it in items:
+            a = []
+            t = re.findall(p, it)
+            for it in t[0]:
+                a.append(it)
+            schedual.append(a)
+        table = []
+        for it in schedual:
+            if '单' in it[2]:
+                it[2]=it[2].replace('(单)', '')
+                it[2] += '|单'
+            elif '双' in it[2]:
+                it[2]=it[2].replace('(双)', '')
+                it[2] += '|双'
+            it[2] = '第' + it[2]
+            it[3] = it[3] + it[4]
+            del it[4]
+            it[4] = it[4][1:-2]
+            table.append(it)
+        return table
+
     def getClassTable(self):
         r = self.session.get(self.classurl)
         pattern = re.compile('class="fcSpanDiv"></div></div>(.*?)</td><td colspan=1 rowspan=".*?">', re.S)
@@ -142,8 +170,8 @@ class DEAN:
     def getGrade(self):
         r = self.session.get(self.gradeurl)
         text = r.text
-        b=pyquery.PyQuery(text)
-        a=b("[href=####]")
+        b = pyquery.PyQuery(text)
+        a = b("[href=####]")
         print(a)
         # print(text)
         pattern = re.compile(
@@ -251,22 +279,22 @@ def __main__():
     def case2():
         dean.getClassTable()
 
-
     def case3():
         dean.getGrade()
 
-
     def case4():
         exit(0)
+
     def case5():
         dean.pinjiao()
+
     def f(o):
         switch.get(o)()
 
     dean = DEAN()
     dean.logIn()
     print('登录成功')
-    switch = {'1': case1, '2': case2, '3': case3, '4': case4,'5':case5}
+    switch = {'1': case1, '2': case2, '3': case3, '4': case4, '5': case5}
     while True:
         try:
             f(menu())
@@ -277,4 +305,8 @@ def __main__():
 
 
 if __name__ == "__main__":
-    __main__()
+    dean = DEAN()
+    dean.logIn()
+    print('登录成功')
+    dean.getSchedule()
+    # __main__()

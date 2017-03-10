@@ -85,7 +85,7 @@ def main():
     print(display(ics))
     print("生成成功!")
 
-    file_name = 'output.ics'
+    file_name = 'sch.ics'
     print("\n正在保存到..." + file_name)
     with open(file_name, 'wb') as f:
         f.write(ics.to_ical())

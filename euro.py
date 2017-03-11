@@ -7,15 +7,18 @@ class Euro:
     def __init__(self, team):
         self.team = team
         self.num = 1
-        self.match_list = {'1': 'group_match_1', '2': 'group_match_2', '3': 'group_match_3', '4': 'group_match_4',
-                           '5': 'group_match_5', '6': 'group_match_6', '7': 'group_match_result', '8': '1_8_final',
-                           '9': 'quarter_final',
-                           '10': 'half_final', '11': 'final'}
+        self.match_list = {'1': 'Group_Match_1', '2': 'Group_Match_2', '3': 'Group_Match_3', '4': 'Group_Match_4',
+                           '5': 'Group_Match_5', '6': 'Group_Match_6', '7': 'Group_Match_Result', '8': '1_8_final',
+                           '9': 'Quarter_Finals',
+                           '10': 'Semi_Finals', '11': 'Final'}
         self.match_list_1 = {'1': 'First_Round', '2': 'Second_Round', '3': 'Quarter_Finals_1', '4': 'Quarter_Finals_2',
                              '5': 'Quarter_Finals_3', '6': 'Quarter_Finals_4', '7': 'Quarter_Finals_5',
-                             '8': 'Quarter_Finals_6', '9': 'quarter_final_result', '10': 'final'}
-        self.match_list_2 = {'1': 'First_Round', '2': 'Second_Round', '3': 'Quarter_Final', '4': 'Semi_Finals',
-                             '5': 'final'}
+                             '8': 'Quarter_Finals_6', '9': 'Quarter_Final_Result', '10': 'Final'}
+        self.match_list_2 = {'1': 'First_Round', '2': 'Second_Round', '3': 'Quarter_Finals', '4': 'Semi_Finals',
+                             '5': 'Final'}
+        self.match_list_3 = {'1': 'First_Round', '2': 'Quarter_Finals', '3': 'Semi_Finals', '4': 'Final'}
+        self.match_list_4 = {'1': 'Preliminary_Round', '2': 'First_Round', '3': 'Quarter_Finals', '4': 'Semi_Finals',
+                             '5': 'Final'}
 
     def get_Url(self):
         url = 'http://www.rsssf.com/ec/ecomp.html'
@@ -73,9 +76,12 @@ class Euro:
         return item
 
     def have_team(self, data):
-        if self.team in data or self.team.upper() in data:
+        if self.team in data or self.team.upper() in data :
             return True
         else:
+            if self.team=='Bayern München':
+                if 'Bayern Munich' in data:
+                    return True
             return False
 
     def hasNumbers(self, inputString):
@@ -83,26 +89,19 @@ class Euro:
 
     def get_replace(self, s, season):
         if int(season) >= 199495:
-            p1 = re.compile('\(\d\)')
-            p2 = re.compile('\([a-zA-Z]+\)')
-            s = re.sub(p1, '', s)
-            s = re.sub(p2, '', s)
             s = re.split(r'[\:]+', s)
             l = {}
             if len(s) > 1:
                 if not self.hasNumbers(s[1]):
                     return {}
                 ss = s[1]
-                a = re.match(
-                    r'\s*([a-zA-zøö\-\']+\s*[a-zA-Zøö\-\']+\s*[a-zA-Zøö\-\']*)\s*([0-9]+)\s*([a-zA-zøö\-\']+\s*[a-zA-Zøö\-\']+\s*[a-zA-Zøö\-\']*)\s*([0-9]+)',
-                    ss)
-                l = {'date': s[0], 'team_1': a.group(1), 'team_1_goal': a.group(2), 'team_2': a.group(3),
-                     'team_2_goal': a.group(4)}
+                l = {'date': s[0], 'team_1': s[1][1:25], 'team_1_goal': s[1][30:31], 'team_2': s[1][33:58],
+                     'team_2_goal': s[1][62:63]}
                 self.num += 1
             else:
                 try:
                     a = re.match(
-                        r'([a-zA-zøö\-\']+\s*[a-zA-Zøö\-\']+\s*[a-zA-Zøö\-\']*)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)',
+                        r'([a-zA-zøöüñ\-\']+\s*[a-zA-Zøöüñ\-\']+\s*[a-zA-Zøöüñ\-\']*)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)',
                         s[0])
                     l = {'team': a.group(1), 'matches': a.group(2), 'win': a.group(3), 'draw': a.group(4),
                          'lose': a.group(5), 'goals': a.group(6), 'lose_goals': a.group(7), 'score': a.group(8)}
@@ -121,10 +120,37 @@ class Euro:
                 l = {'team': s[:27], 'matches': s[27:28], 'win': s[30:31], 'drew': s[33:34], 'lose': s[36:37],
                      'goals': s[38:40], 'lose_goals': s[41:43], 'score': s[44:46]}
             return l
+        elif int(season) >= 198485:
+            if len(s) > 70:
+                l = {'team_1': s[:25], 'team_2': s[30:55], 'first_turn': s[61:64], 'second_turn': s[66:69],
+                     'sum': s[71:74]}
+                return l
+            else:
+                l = {'team_1': s[:25], 'team_1_goals': s[29:30], 'team_2': s[32:57], 'team_2_goals': s[61:62]}
+                return l
+        elif int(season) >= 196970:
+            if len(s) > 70:
+                l = {'team_1': s[:25], 'team_2': s[30:55], 'first_turn': s[60:63], 'second_turn': s[65:68],
+                     'sum': s[70:73]}
+                return l
+            else:
+                l = {'team_1': s[:25], 'team_1_goals': s[29:30], 'team_2': s[32:57], 'team_2_goals': s[61:62]}
+                return l
 
+        elif int(season) >= 196263:
+            if len(s) > 70:
+                l = {'team_1': s[:25], 'team_2': s[30:55], 'first_turn': s[61:64], 'second_turn': s[66:69],
+                     'sum': s[71:74]}
+                return l
+            else:
+                l = {'team_1': s[:25], 'team_1_goals': s[29:30], 'team_2': s[32:57], 'team_2_goals': s[61:62]}
+                return l
         else:
-            l = {'team_1': s[:25], 'team_2': s[30:55], 'first_turn': s[61:64], 'second_turn': s[66:69],
-                 'sum': s[71:74]}
+            if len(s) > 70:
+                l = {'team_1': s[:25], 'team_2': s[30:55], 'first_turn': s[61:64], 'second_turn': s[66:69],
+                     'sum': s[71:74]}
+            else:
+                l = {'team_1': s[:25], 'team_1_goals': s[29:30], 'team_2': s[32:57], 'team_2_goals': s[61:62]}
             return l
 
     def get_teamgrade(self, item, season):
@@ -136,7 +162,7 @@ class Euro:
                     try:
                         result[self.match_list[str(i)]] = self.get_replace(it, season)
                     except:
-                        pass
+                        result['ps'] = self.get_replace(it, season)
                     i += 1
             return result
         elif int(season) >= 199192:
@@ -144,15 +170,33 @@ class Euro:
             result = {}
             for it in item:
                 if self.hasNumbers(it):
-                    result[self.match_list_1[str(i)]] = self.get_replace(it, season)
+                    try:
+                        result[self.match_list_1[str(i)]] = self.get_replace(it, season)
+                    except:
+                        result['ps'] = self.get_replace(it, season)
+                    i += 1
+            return result
+        elif int(season) >= 196263:
+            i = 1
+            result = {}
+            for it in item:
+                if self.hasNumbers(it):
+                    try:
+                        result[self.match_list_2[str(i)]] = self.get_replace(it, season)
+                    except:
+                        result['ps'] = self.get_replace(it, season)
                     i += 1
             return result
         else:
             i = 1
             result = {}
+            item = list(filter(self.hasNumbers, item))
             for it in item:
-                if self.hasNumbers(it):
-                    result[self.match_list_2[str(i)]] = self.get_replace(it, season)
+                if len(item) == 4:
+                    result[self.match_list_3[str(i)]] = self.get_replace(it, season)
+                    i += 1
+                else:
+                    result[self.match_list_4[str(i)]] = self.get_replace(it, season)
                     i += 1
             return result
 
@@ -163,6 +207,8 @@ class Euro:
             print(it)
             data = self.get_Data(it)
             l = list(filter(self.have_team, data))
+            if len(list(filter(self.hasNumbers, l))) < 4:
+                l = []
             result[it[26:32]] = self.get_teamgrade(l, it[26:32])
 
         return result
@@ -170,9 +216,9 @@ class Euro:
 
 
 if __name__ == '__main__':
-    euro = Euro('Real Madrid')
-    data=euro.get_TeamData()
-    json_data=json.dumps(data)
-    fileObject = open('RMA.json', 'w')
+    euro = Euro('Manchester United')
+    data = euro.get_TeamData()
+    json_data = json.dumps(data)
+    fileObject = open('MTU.json', 'w')
     fileObject.write(json_data)
     fileObject.close()

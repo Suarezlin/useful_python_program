@@ -80,7 +80,7 @@ class Euro:
             return True
         else:
             if self.team=='Bayern München':
-                if 'Bayern Munich' in data:
+                if 'Bayern Munich' in data or 'Bayern Munich'.upper() in data:
                     return True
             return False
 
@@ -88,7 +88,29 @@ class Euro:
         return any(char.isdigit() for char in inputString)
 
     def get_replace(self, s, season):
-        if int(season) >= 199495:
+        if int(season) >=200910:
+            s = re.split(r'[\:]+', s)
+            l = {}
+            if len(s) > 1:
+                if not self.hasNumbers(s[1]):
+                    return {}
+                ss = s[1]
+                l = {'date': s[0], 'team_1': s[1][1:25], 'team_1_goal': s[1][30:31], 'team_2': s[1][33:57],
+                     'team_2_goal': s[1][61:62]}
+                self.num += 1
+            else:
+                try:
+                    a = re.match(
+                        r'([a-zA-zøöüñ\-\']+\s*[a-zA-Zøöüñ\-\']+\s*[a-zA-Zøöüñ\-\']*)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)\s*([0-9]+)',
+                        s[0])
+                    l = {'team': a.group(1), 'matches': a.group(2), 'win': a.group(3), 'draw': a.group(4),
+                         'lose': a.group(5), 'goals': a.group(6), 'lose_goals': a.group(7), 'score': a.group(8)}
+                except:
+                    l = {'team_1': s[0][:25], 'team_2': s[0][30:55], 'first_turn': s[0][61:64],
+                         'second_turn': s[0][66:69],
+                         'sum': s[0][71:74]}
+            return l
+        elif int(season) >= 199596:
             s = re.split(r'[\:]+', s)
             l = {}
             if len(s) > 1:
@@ -154,7 +176,7 @@ class Euro:
             return l
 
     def get_teamgrade(self, item, season):
-        if int(season) >= 199394:
+        if int(season) >= 199495:
             i = 1
             result = {}
             for it in item:

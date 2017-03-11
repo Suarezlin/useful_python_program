@@ -17,8 +17,17 @@ class Euro:
         self.match_list_2 = {'1': 'First_Round', '2': 'Second_Round', '3': 'Quarter_Finals', '4': 'Semi_Finals',
                              '5': 'Final'}
         self.match_list_3 = {'1': 'First_Round', '2': 'Quarter_Finals', '3': 'Semi_Finals', '4': 'Final'}
+        self.match_list_e = {'1': 'Round', '2': 'Quarter_Finals', '3': 'Semi_Finals', '4': 'Final'}
         self.match_list_4 = {'1': 'Preliminary_Round', '2': 'First_Round', '3': 'Quarter_Finals', '4': 'Semi_Finals',
                              '5': 'Final'}
+        self.match_list_s = {'1': '1_Group_Match_1', '2': '1_Group_Match_2', '3': '1_Group_Match_3',
+                             '4': '1_Group_Match_4',
+                             '5': '1_Group_Match_5', '6': '1_Group_Match_6', '7': '1_Group_Match_Result',
+                             '8': '2_Group_Match_1', '9': '2_Group_Match_2', '10': '2_Group_Match_3',
+                             '11': '2_Group_Match_4', '12': '2_Group_Match_5', '13': '2_Group_Match_6',
+                             '14': '2_Group_Match_Result', '15': '1_8_final',
+                             '16': 'Quarter_Finals',
+                             '17': 'Semi_Finals', '18': 'Final'}
 
     def get_Url(self):
         url = 'http://www.rsssf.com/ec/ecomp.html'
@@ -52,34 +61,78 @@ class Euro:
 
     def get_Data(self, url):
         text = requests.get(url).text
-        try:
-            p1 = re.compile('<A NAME="ccg">Group Phase</A>(.*?)<P><A HREF="ecomp\.html">Index</A>', re.S)
-            text = re.findall(p1, text)[0]
-        except:
+        # try:
+        #     p1 = re.compile('<A NAME="ccg">Group Phase</A>(.*?)<P><A HREF="ecomp\.html">Index</A>', re.S)
+        #     text = re.findall(p1, text)[0]
+        # except:
+        #     try:
+        #         p1 = re.compile('<a name="ccg1">Group Phase 1</a>(.*?)<P><A href="ecomp\.html">Index</A>', re.S)
+        #         text = re.findall(p1, text)[0]
+        #     except:
+        #         try:
+        #             p1 = re.compile('Additional Match Details</a>(.*?)<a href=', re.S)
+        #             text = re.findall(p1, text)[0]
+        #         except:
+        #             try:
+        #                 p1 = re.compile('<pre>(.*?)</pre>', re.S)
+        #                 text = re.findall(p1, text)[0]
+        #             except:
+        #                 p1 = re.compile('<PRE>(.*?)</PRE>', re.S)
+        #                 text = re.findall(p1, text)[0]
+        season = url[26:32]
+        if int(season) >= 200304:
             try:
-                p1 = re.compile('<a name="ccg1">Group Phase 1</a>(.*?)<P><A href="ecomp\.html">Index</A>', re.S)
+                p1 = re.compile('Group A(.*?)</pre>', re.S)
                 text = re.findall(p1, text)[0]
             except:
-                try:
-                    p1 = re.compile('Additional Match Details</a>(.*?)<a href=', re.S)
-                    text = re.findall(p1, text)[0]
-                except:
-                    try:
-                        p1 = re.compile('<pre>(.*?)</pre>', re.S)
-                        text = re.findall(p1, text)[0]
-                    except:
-                        p1 = re.compile('<PRE>(.*?)</PRE>', re.S)
-                        text = re.findall(p1, text)[0]
+                p1 = re.compile('Group A(.*?)</PRE>', re.S)
+                text = re.findall(p1, text)[0]
+        elif int(season) >= 199900:
+            try:
+                p1 = re.compile('Group Phase 1(.*?)</pre>', re.S)
+                text = re.findall(p1, text)[0]
+            except:
+                p1 = re.compile('Group Phase 1(.*?)</PRE>', re.S)
+                text = re.findall(p1, text)[0]
+        elif int(season) >= 199495:
+            try:
+                p1 = re.compile('Group A(.*?)</pre>', re.S)
+                text = re.findall(p1, text)[0]
+            except:
+                p1 = re.compile('Group A(.*?)</PRE>', re.S)
+                text = re.findall(p1, text)[0]
+        elif int(season) >= 199192:
+            try:
+                p1 = re.compile('First Round(.*?)</pre>', re.S)
+                text = re.findall(p1, text)[0]
+            except:
+                p1 = re.compile('First Round(.*?)</PRE>', re.S)
+                text = re.findall(p1, text)[0]
+        elif int(season) >= 196263:
+            try:
+                p1 = re.compile('First Round(.*?)</pre>', re.S)
+                text = re.findall(p1, text)[0]
+            except:
+                p1 = re.compile('First Round(.*?)</PRE>', re.S)
+                text = re.findall(p1, text)[0]
+        else:
+            try:
+                p1 = re.compile('First Round(.*?)</pre>', re.S)
+                text = re.findall(p1, text)[0]
+            except:
+                p1 = re.compile('First Round(.*?)</PRE>', re.S)
+                text = re.findall(p1, text)[0]
+
         item = text.split('\n')
         item = list(map(self.strip_tags, item))
         item = list(filter(self.isNone, item))
         return item
 
     def have_team(self, data):
-        if self.team in data or self.team.upper() in data :
+        if self.team in data or self.team.upper() in data:
             return True
         else:
-            if self.team=='Bayern München':
+            if self.team == 'Bayern München':
                 if 'Bayern Munich' in data or 'Bayern Munich'.upper() in data:
                     return True
             return False
@@ -88,14 +141,14 @@ class Euro:
         return any(char.isdigit() for char in inputString)
 
     def get_replace(self, s, season):
-        if int(season) >=200910:
+        if int(season) >= 200910:
             s = re.split(r'[\:]+', s)
             l = {}
             if len(s) > 1:
                 if not self.hasNumbers(s[1]):
                     return {}
                 ss = s[1]
-                l = {'date': s[0], 'team_1': s[1][1:25], 'team_1_goal': s[1][30:31], 'team_2': s[1][33:57],
+                l = {'date': s[0], 'team_1': s[1][1:25], 'team_1_goal': s[1][30:31], 'team_2': s[1][32:57],
                      'team_2_goal': s[1][61:62]}
                 self.num += 1
             else:
@@ -117,7 +170,7 @@ class Euro:
                 if not self.hasNumbers(s[1]):
                     return {}
                 ss = s[1]
-                l = {'date': s[0], 'team_1': s[1][1:25], 'team_1_goal': s[1][30:31], 'team_2': s[1][33:58],
+                l = {'date': s[0], 'team_1': s[1][1:25], 'team_1_goal': s[1][30:31], 'team_2': s[1][32:57],
                      'team_2_goal': s[1][62:63]}
                 self.num += 1
             else:
@@ -176,7 +229,29 @@ class Euro:
             return l
 
     def get_teamgrade(self, item, season):
-        if int(season) >= 199495:
+        if int(season) >= 200304:
+            i = 1
+            result = {}
+            for it in item:
+                if self.hasNumbers(it):
+                    try:
+                        result[self.match_list[str(i)]] = self.get_replace(it, season)
+                    except:
+                        result['ps'] = self.get_replace(it, season)
+                    i += 1
+            return result
+        elif int(season) >= 199900:
+            i = 1
+            result = {}
+            for it in item:
+                if self.hasNumbers(it):
+                    try:
+                        result[self.match_list_s[str(i)]] = self.get_replace(it, season)
+                    except:
+                        result['ps'] = self.get_replace(it, season)
+                    i += 1
+            return result
+        elif int(season) >= 199495:
             i = 1
             result = {}
             for it in item:
@@ -209,17 +284,29 @@ class Euro:
                         result['ps'] = self.get_replace(it, season)
                     i += 1
             return result
+        elif int(season) >= 195859:
+            i = 1
+            result = {}
+            item = list(filter(self.hasNumbers, item))
+            for it in item:
+                result[self.match_list_3[str(i)]] = self.get_replace(it, season)
+                i += 1
+            return result
+        elif int(season) >= 195758:
+            i = 1
+            result = {}
+            for it in item:
+                if self.hasNumbers(it):
+                    result[self.match_list_e[str(i)]] = self.get_replace(it, season)
+                    i += 1
+            return result
         else:
             i = 1
             result = {}
             item = list(filter(self.hasNumbers, item))
             for it in item:
-                if len(item) == 4:
-                    result[self.match_list_3[str(i)]] = self.get_replace(it, season)
-                    i += 1
-                else:
-                    result[self.match_list_4[str(i)]] = self.get_replace(it, season)
-                    i += 1
+                result[self.match_list_3[str(i)]] = self.get_replace(it, season)
+                i += 1
             return result
 
     def get_TeamData(self):
@@ -229,8 +316,8 @@ class Euro:
             print(it)
             data = self.get_Data(it)
             l = list(filter(self.have_team, data))
-            if len(list(filter(self.hasNumbers, l))) < 4:
-                l = []
+            # if len(list(filter(self.hasNumbers, l))) < 4:
+            #     l = []
             result[it[26:32]] = self.get_teamgrade(l, it[26:32])
 
         return result
@@ -238,9 +325,12 @@ class Euro:
 
 
 if __name__ == '__main__':
-    euro = Euro('Manchester United')
+    euro = Euro('Milan AC')
     data = euro.get_TeamData()
     json_data = json.dumps(data)
-    fileObject = open('MTU.json', 'w')
+    fileObject = open('ACM.json', 'w')
     fileObject.write(json_data)
     fileObject.close()
+    # euro = Euro('Real Madrid')
+    # data = euro.get_Data('http://www.rsssf.com/ec/ec199899.html')
+    # print(data)

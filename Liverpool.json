@@ -1,0 +1,743 @@
+{
+    "195556": {},
+    "195657": {},
+    "195758": {},
+    "195859": {},
+    "195960": {},
+    "196061": {},
+    "196162": {},
+    "196263": {},
+    "196364": {},
+    "196465": {
+        "First_Round": {
+            "team_1": "KR (Reykjavik)           ",
+            "team_2": "Liverpool                ",
+            "first_turn": "0-5",
+            "second_turn": "1-6",
+            "sum": "1-1"
+        },
+        "Second_Round": {
+            "team_1": "Liverpool                ",
+            "team_2": "RSC Anderlecht           ",
+            "first_turn": "3-0",
+            "second_turn": "1-0",
+            "sum": "4-0"
+        },
+        "Quarter_Finals": {
+            "team_1": "1.FC Cologne             ",
+            "team_2": "Liverpool                ",
+            "first_turn": "0-0",
+            "second_turn": "0-0",
+            "sum": "0-0"
+        },
+        "Semi_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "Internazionale           ",
+            "first_turn": "3-1",
+            "second_turn": "0-3",
+            "sum": "3-4"
+        }
+    },
+    "196566": {},
+    "196667": {},
+    "196768": {},
+    "196869": {},
+    "196970": {},
+    "197071": {},
+    "197172": {},
+    "197273": {},
+    "197374": {},
+    "197475": {},
+    "197576": {},
+    "197677": {
+        "First_Round": {
+            "team_1": "Liverpool                ",
+            "team_2": "Crusaders                ",
+            "first_turn": "2-0",
+            "second_turn": "5-0",
+            "sum": "7-0"
+        },
+        "Second_Round": {
+            "team_1": "Trabzonspor              ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-0",
+            "second_turn": "0-3",
+            "sum": "1-3"
+        },
+        "Quarter_Finals": {
+            "team_1": "AS Saint-Etienne         ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-0",
+            "second_turn": "1-3",
+            "sum": "2-3"
+        },
+        "Semi_Finals": {
+            "team_1": "FC Zurich                ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-3",
+            "second_turn": "0-3",
+            "sum": "1-6"
+        },
+        "Final": {
+            "team_1": "Liverpool                ",
+            "team_1_goals": "3",
+            "team_2": "Borussia Monchengladbach ",
+            "team_2_goals": "1"
+        }
+    },
+    "197778": {
+        "First_Round": {
+            "team_1": "Liverpool                ",
+            "team_2": "SG Dynamo Dresden        ",
+            "first_turn": "5-1",
+            "second_turn": "1-2",
+            "sum": "6-3"
+        },
+        "Second_Round": {
+            "team_1": "SL Benfica               ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-2",
+            "second_turn": "1-4",
+            "sum": "2-6"
+        },
+        "Quarter_Finals": {
+            "team_1": "Borussia Monchengladbach ",
+            "team_2": "Liverpool                ",
+            "first_turn": "2-1",
+            "second_turn": "0-3",
+            "sum": "2-4"
+        },
+        "Semi_Finals": {
+            "team_1": "Liverpool                ",
+            "team_1_goals": "1",
+            "team_2": "Club Brugge KV           ",
+            "team_2_goals": "0"
+        }
+    },
+    "197879": {},
+    "197980": {},
+    "198081": {
+        "First_Round": {
+            "team_1": "OPS (Oulu)               ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-1",
+            "second_turn": "1-1",
+            "sum": "2-1"
+        },
+        "Second_Round": {
+            "team_1": "Aberdeen                 ",
+            "team_2": "Liverpool                ",
+            "first_turn": "0-1",
+            "second_turn": "0-4",
+            "sum": "0-5"
+        },
+        "Quarter_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "CSKA (Sofia)             ",
+            "first_turn": "5-1",
+            "second_turn": "1-0",
+            "sum": "6-1"
+        },
+        "Semi_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "Bayern Munich            ",
+            "first_turn": "0-0",
+            "second_turn": "1-1",
+            "sum": "1-1"
+        },
+        "Final": {
+            "team_1": "Liverpool                ",
+            "team_1_goals": "1",
+            "team_2": "Real Madrid              ",
+            "team_2_goals": "0"
+        }
+    },
+    "198182": {},
+    "198283": {},
+    "198384": {
+        "First_Round": {
+            "team_1": "OB (Odense)              ",
+            "team_2": "Liverpool                ",
+            "first_turn": "0-1",
+            "second_turn": "0-5",
+            "sum": "0-6"
+        },
+        "Second_Round": {
+            "team_1": "Liverpool                ",
+            "team_2": "Athletic Bilbao          ",
+            "first_turn": "0-0",
+            "second_turn": "1-0",
+            "sum": "1-0"
+        },
+        "Quarter_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "SL Benfica               ",
+            "first_turn": "1-0",
+            "second_turn": "4-1",
+            "sum": "5-1"
+        },
+        "Semi_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "Dinamo Bucuresti         ",
+            "first_turn": "1-0",
+            "second_turn": "2-1",
+            "sum": "3-1"
+        },
+        "Final": {
+            "team_1": "Liverpool                ",
+            "team_1_goals": "1",
+            "team_2": "Roma                     ",
+            "team_2_goals": "1"
+        },
+        "ps": {
+            "team_1": "Liverpool won 4-2 on pena",
+            "team_1_goals": "s",
+            "team_2": "",
+            "team_2_goals": ""
+        }
+    },
+    "198485": {
+        "First_Round": {
+            "team_1": "Lech Poznan              ",
+            "team_2": "Liverpool                ",
+            "first_turn": "0-1",
+            "second_turn": "0-4",
+            "sum": "0-5"
+        },
+        "Second_Round": {
+            "team_1": "Liverpool                ",
+            "team_2": "SL Benfica               ",
+            "first_turn": "3-1",
+            "second_turn": "0-1",
+            "sum": "3-2"
+        },
+        "Quarter_Finals": {
+            "team_1": "FK Austria (Wien)        ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-1",
+            "second_turn": "1-4",
+            "sum": "2-5"
+        },
+        "Semi_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "Panathinaikos            ",
+            "first_turn": "4-0",
+            "second_turn": "1-0",
+            "sum": "5-0"
+        },
+        "Final": {
+            "team_1": "Juventus                 ",
+            "team_1_goals": "1",
+            "team_2": "Liverpool                ",
+            "team_2_goals": "0"
+        }
+    },
+    "198586": {},
+    "198687": {},
+    "198788": {},
+    "198889": {},
+    "198990": {},
+    "199091": {},
+    "199192": {},
+    "199293": {},
+    "199394": {},
+    "199495": {},
+    "199596": {},
+    "199697": {},
+    "199798": {},
+    "199899": {},
+    "199900": {},
+    "200001": {},
+    "200102": {},
+    "200203": {},
+    "200304": {},
+    "200405": {
+        "Group_Match_1": {
+            "date": "Sep 15",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "2",
+            "team_2": "AS Monaco                ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_2": {
+            "date": "Sep 28",
+            "team_1": "Olympiakos (Pireus)     ",
+            "team_1_goal": "1",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_3": {
+            "date": "Oct 19",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "0",
+            "team_2": "Deportivo (La Coruña)    ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_4": {
+            "date": "Nov  3",
+            "team_1": "Deportivo (La Coruña)   ",
+            "team_1_goal": "0",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Nov 23",
+            "team_1": "AS Monaco               ",
+            "team_1_goal": "1",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_6": {
+            "date": "Dec  8",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "3",
+            "team_2": "Olympiakos (Pireus)      ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_Result": {
+            "team": "Liverpool                 ",
+            "matches": "6",
+            "win": "3",
+            "draw": "1",
+            "lose": "2",
+            "goals": "6",
+            "lose_goals": "3",
+            "score": "10"
+        },
+        "1_8_final": {
+            "team_1": "Liverpool                ",
+            "team_2": "Bayer Leverkusen         ",
+            "first_turn": "3-1",
+            "second_turn": "3-1",
+            "sum": "6-2"
+        },
+        "Quarter_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "Juventus                 ",
+            "first_turn": "2-1",
+            "second_turn": "0-0",
+            "sum": "2-1"
+        },
+        "Semi_Finals": {
+            "team_1": "Chelsea                  ",
+            "team_2": "Liverpool                ",
+            "first_turn": "0-0",
+            "second_turn": "0-1",
+            "sum": "0-1"
+        },
+        "Final": {
+            "team_1": "Liverpool                ",
+            "team_2": "Milan                    ",
+            "first_turn": "3-3",
+            "second_turn": "3-2",
+            "sum": ""
+        }
+    },
+    "200506": {
+        "Group_Match_1": {
+            "date": "Sep 13",
+            "team_1": "Real Betis (Sevilla)    ",
+            "team_1_goal": "1",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_2": {
+            "date": "Sep 28",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "0",
+            "team_2": "Chelsea                  ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_3": {
+            "date": "Oct 19",
+            "team_1": "RSC Anderlecht          ",
+            "team_1_goal": "0",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Nov  1",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "3",
+            "team_2": "RSC Anderlecht           ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_5": {
+            "date": "Nov 23",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "0",
+            "team_2": "Real Betis (Sevilla)     ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_6": {
+            "date": "Dec  6",
+            "team_1": "Chelsea                 ",
+            "team_1_goal": "0",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_Result": {
+            "team": "Liverpool                 ",
+            "matches": "6",
+            "win": "3",
+            "draw": "3",
+            "lose": "0",
+            "goals": "6",
+            "lose_goals": "1",
+            "score": "12"
+        },
+        "1_8_final": {
+            "team_1": "SL Benfica (Lisboa)      ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-0",
+            "second_turn": "2-0",
+            "sum": "3-0"
+        }
+    },
+    "200607": {
+        "Group_Match_1": {
+            "date": "Sep 12",
+            "team_1": "PSV (Eindhoven)         ",
+            "team_1_goal": "0",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_2": {
+            "date": "Sep 27",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "3",
+            "team_2": "Galatasaray SK           ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_3": {
+            "date": "Oct 18",
+            "team_1": "Girondins de Bordeaux   ",
+            "team_1_goal": "0",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Oct 31",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "3",
+            "team_2": "Girondins de Bordeaux    ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_5": {
+            "date": "Nov 22",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "2",
+            "team_2": "PSV (Eindhoven)          ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_6": {
+            "date": "Dec  5",
+            "team_1": "Galatasaray SK          ",
+            "team_1_goal": "3",
+            "team_2": "Liverpool                ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_Result": {
+            "team": "Liverpool                 ",
+            "matches": "6",
+            "win": "4",
+            "draw": "1",
+            "lose": "1",
+            "goals": "11",
+            "lose_goals": "5",
+            "score": "13"
+        },
+        "1_8_final": {
+            "team_1": "FC Barcelona             ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-2",
+            "second_turn": "1-0",
+            "sum": "2-2"
+        },
+        "Quarter_Finals": {
+            "team_1": "PSV (Eindhoven)          ",
+            "team_2": "Liverpool                ",
+            "first_turn": "0-3",
+            "second_turn": "0-1",
+            "sum": "0-4"
+        },
+        "Semi_Finals": {
+            "team_1": "Chelsea                  ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-0",
+            "second_turn": "0-1",
+            "sum": "1-1"
+        },
+        "Final": {
+            "team_1": "Milan AC                 ",
+            "team_2": "Liverpool                ",
+            "first_turn": "2-1",
+            "second_turn": "",
+            "sum": ""
+        },
+        "ps": {
+            "date": "Liverpool",
+            "team_1": "José Manuel Reina, Steve",
+            "team_1_goal": "a",
+            "team_2": "(Alvaro Arbeloa 88), Jami",
+            "team_2_goal": "r"
+        }
+    },
+    "200708": {
+        "Group_Match_1": {
+            "date": "Sep 18",
+            "team_1": "FC Porto                ",
+            "team_1_goal": "1",
+            "team_2": "iverpool                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_2": {
+            "date": "Oct  3",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "0",
+            "team_2": "lympique Marseille       ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Oct 24",
+            "team_1": "Besiktas JK (Istanbul)  ",
+            "team_1_goal": "2",
+            "team_2": "iverpool                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Nov  6",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "8",
+            "team_2": "esiktas JK (Istanbul)    ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_5": {
+            "date": "Nov 28",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "4",
+            "team_2": "C Porto                  ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_6": {
+            "date": "Dec 11",
+            "team_1": "Olympique Marseille     ",
+            "team_1_goal": "0",
+            "team_2": "iverpool                 ",
+            "team_2_goal": "4"
+        },
+        "Group_Match_Result": {
+            "team": "Liverpool                 ",
+            "matches": "6",
+            "win": "3",
+            "draw": "1",
+            "lose": "2",
+            "goals": "18",
+            "lose_goals": "5",
+            "score": "10"
+        },
+        "1_8_final": {
+            "team_1": "Liverpool                ",
+            "team_2": "Internazionale           ",
+            "first_turn": "2-0",
+            "second_turn": "1-0",
+            "sum": "3-0"
+        },
+        "Quarter_Finals": {
+            "team_1": "Arsenal                  ",
+            "team_2": "Liverpool                ",
+            "first_turn": "1-1",
+            "second_turn": "2-4",
+            "sum": "3-5"
+        },
+        "Semi_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "Chelsea                  ",
+            "first_turn": "1-1",
+            "second_turn": "2-3",
+            "sum": "3-4"
+        }
+    },
+    "200809": {
+        "Group_Match_1": {
+            "date": "Sep 16",
+            "team_1": "Olympique Marseille     ",
+            "team_1_goal": "1",
+            "team_2": "iverpool                 ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_2": {
+            "date": "Oct  1",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "3",
+            "team_2": "SV (Eindhoven)           ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Oct 22",
+            "team_1": "Atlético Madrid         ",
+            "team_1_goal": "1",
+            "team_2": "iverpool                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Nov  4",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "1",
+            "team_2": "tlético Madrid           ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Nov 26",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "1",
+            "team_2": "lympique Marseille       ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_6": {
+            "date": "Dec  9",
+            "team_1": "PSV (Eindhoven)         ",
+            "team_1_goal": "1",
+            "team_2": "iverpool                 ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_Result": {
+            "team": "Liverpool                 ",
+            "matches": "6",
+            "win": "4",
+            "draw": "2",
+            "lose": "0",
+            "goals": "11",
+            "lose_goals": "5",
+            "score": "14"
+        },
+        "1_8_final": {
+            "team_1": "Real Madrid              ",
+            "team_2": "Liverpool                ",
+            "first_turn": "0-1",
+            "second_turn": "0-4",
+            "sum": "0-5"
+        },
+        "Quarter_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "Chelsea                  ",
+            "first_turn": "1-3",
+            "second_turn": "4-4",
+            "sum": "5-7"
+        }
+    },
+    "200910": {
+        "Group_Match_1": {
+            "date": "Sep 16",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "1",
+            "team_2": "ebreceni VSC            (",
+            "team_2_goal": ""
+        },
+        "Group_Match_2": {
+            "date": "Sep 29",
+            "team_1": "Fiorentina              ",
+            "team_1_goal": "2",
+            "team_2": "iverpool                (",
+            "team_2_goal": ""
+        },
+        "Group_Match_3": {
+            "date": "Oct 20",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "1",
+            "team_2": "lympique Lyonnais       (",
+            "team_2_goal": ""
+        },
+        "Group_Match_4": {
+            "date": "Nov  4",
+            "team_1": "Olympique Lyonnais      ",
+            "team_1_goal": "1",
+            "team_2": "iverpool                (",
+            "team_2_goal": ""
+        },
+        "Group_Match_5": {
+            "date": "Nov 24",
+            "team_1": "Debreceni VSC           ",
+            "team_1_goal": "0",
+            "team_2": "iverpool                (",
+            "team_2_goal": "x"
+        },
+        "Group_Match_6": {
+            "date": "Dec  9",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "1",
+            "team_2": "iorentina               (",
+            "team_2_goal": ""
+        },
+        "Group_Match_Result": {
+            "team": "Liverpool                 ",
+            "matches": "6",
+            "win": "2",
+            "draw": "1",
+            "lose": "3",
+            "goals": "5",
+            "lose_goals": "7",
+            "score": "7"
+        }
+    },
+    "201011": {},
+    "201112": {},
+    "201213": {},
+    "201314": {},
+    "201415": {
+        "Group_Match_1": {
+            "date": "Sep 16",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "2",
+            "team_2": "udogorets Razgrad       (",
+            "team_2_goal": ""
+        },
+        "Group_Match_2": {
+            "date": "Oct  1",
+            "team_1": "FC Basel                ",
+            "team_1_goal": "1",
+            "team_2": "iverpool                (",
+            "team_2_goal": ""
+        },
+        "Group_Match_3": {
+            "date": "Oct 22",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "0",
+            "team_2": "eal Madrid              (",
+            "team_2_goal": ""
+        },
+        "Group_Match_4": {
+            "date": "Nov  4",
+            "team_1": "Real Madrid             ",
+            "team_1_goal": "1",
+            "team_2": "iverpool                (",
+            "team_2_goal": ""
+        },
+        "Group_Match_5": {
+            "date": "Nov 26",
+            "team_1": "Ludogorets Razgrad      ",
+            "team_1_goal": "2",
+            "team_2": "iverpool                (",
+            "team_2_goal": "x"
+        },
+        "Group_Match_6": {
+            "date": "Dec  9",
+            "team_1": "Liverpool               ",
+            "team_1_goal": "1",
+            "team_2": "C Basel                 (",
+            "team_2_goal": ""
+        },
+        "Group_Match_Result": {
+            "team": "Liverpool                 ",
+            "matches": "6",
+            "win": "1",
+            "draw": "2",
+            "lose": "3",
+            "goals": "5",
+            "lose_goals": "9",
+            "score": "5"
+        }
+    },
+    "201516": {},
+    "201617": {}
+}

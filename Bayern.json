@@ -308,54 +308,58 @@
     "199495": {
         "Group_Match_1": {
             "team_1": "Paris Saint-Germain      ",
-            "team_2": "  Bayern Munich          ",
-            "first_turn": "0",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "2",
+            "team_2": "Bayern Munich            ",
+            "team_2_goals": "0"
         },
         "Group_Match_2": {
             "team_1": "Bayern Munich            ",
-            "team_2": "  Dinamo Kiev            ",
-            "first_turn": "0",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "1",
+            "team_2": "Dinamo Kiev              ",
+            "team_2_goals": "0"
         },
         "Group_Match_3": {
             "team_1": "Spartak Moscow           ",
-            "team_2": "  Bayern Munich          ",
-            "first_turn": "1",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "1",
+            "team_2": "Bayern Munich            ",
+            "team_2_goals": "1"
         },
         "Group_Match_4": {
             "team_1": "Bayern Munich            ",
-            "team_2": "  Spartak Moscow         ",
-            "first_turn": "2",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "2",
+            "team_2": "Spartak Moscow           ",
+            "team_2_goals": "2"
         },
         "Group_Match_5": {
             "team_1": "Bayern Munich            ",
-            "team_2": "  Paris Saint-Germain    ",
-            "first_turn": "1",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "0",
+            "team_2": "Paris Saint-Germain      ",
+            "team_2_goals": "1"
         },
         "Group_Match_6": {
             "team_1": "Dinamo Kiev              ",
-            "team_2": "  Bayern Munich          ",
-            "first_turn": "4",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "1",
+            "team_2": "Bayern Munich            ",
+            "team_2_goals": "4"
         },
         "Group_Match_Result": {
+            "team": "BAYERN MUNICH              ",
+            "matches": "6",
+            "win": "2",
+            "drew": "2",
+            "lose": "2",
+            "goals": " 8",
+            "lose_goals": " 7",
+            "score": " 6"
+        },
+        "1_8_final": {
             "team_1": "Bayern Munich            ",
             "team_2": "IFK Gothenburg           ",
             "first_turn": "0-0",
             "second_turn": "2-2",
             "sum": "2-2"
         },
-        "1_8_final": {
+        "Quarter_Finals": {
             "team_1": "Bayern Munich            ",
             "team_2": "Ajax                     ",
             "first_turn": "0-0",
@@ -731,43 +735,43 @@
             "date": "Sep 15",
             "team_1": "Maccabi Haifa           ",
             "team_1_goal": "0",
-            "team_2": "ayern München           (",
-            "team_2_goal": "x"
+            "team_2": "ayern München           ",
+            "team_2_goal": "3"
         },
         "Group_Match_2": {
             "date": "Sep 30",
             "team_1": "Bayern München          ",
             "team_1_goal": "0",
-            "team_2": "uventus                 (",
-            "team_2_goal": ""
+            "team_2": "uventus                 ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 21",
             "team_1": "Girondins de Bordeaux   ",
             "team_1_goal": "2",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  3",
             "team_1": "Bayern München          ",
             "team_1_goal": "0",
-            "team_2": "irondins de Bordeaux    (",
-            "team_2_goal": ""
+            "team_2": "irondins de Bordeaux    ",
+            "team_2_goal": "2"
         },
         "Group_Match_5": {
             "date": "Nov 25",
             "team_1": "Bayern München          ",
             "team_1_goal": "1",
-            "team_2": "accabi Haifa            (",
-            "team_2_goal": ""
+            "team_2": "accabi Haifa            ",
+            "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec  8",
             "team_1": "Juventus                ",
             "team_1_goal": "1",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "4"
         },
         "Group_Match_Result": {
             "team": "Bayern München            ",
@@ -813,43 +817,43 @@
             "date": "Sep 15",
             "team_1": "Bayern München          ",
             "team_1_goal": "2",
-            "team_2": "S Roma                  (",
-            "team_2_goal": ""
+            "team_2": "S Roma                  ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 28",
             "team_1": "FC Basel                ",
             "team_1_goal": "1",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "2"
         },
         "Group_Match_3": {
             "date": "Oct 19",
             "team_1": "Bayern München          ",
             "team_1_goal": "3",
-            "team_2": "FR 1907 Cluj            (",
-            "team_2_goal": ""
+            "team_2": "FR 1907 Cluj            ",
+            "team_2_goal": "2"
         },
         "Group_Match_4": {
             "date": "Nov  3",
             "team_1": "CFR 1907 Cluj           ",
             "team_1_goal": "0",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "4"
         },
         "Group_Match_5": {
             "date": "Nov 23",
             "team_1": "AS Roma                 ",
             "team_1_goal": "3",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "2"
         },
         "Group_Match_6": {
             "date": "Dec  8",
             "team_1": "Bayern München          ",
             "team_1_goal": "3",
-            "team_2": "C Basel                 (",
-            "team_2_goal": ""
+            "team_2": "C Basel                 ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "Bayern München            ",
@@ -874,43 +878,43 @@
             "date": "Sep 14",
             "team_1": "Villarreal CF           ",
             "team_1_goal": "0",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "2"
         },
         "Group_Match_2": {
             "date": "Sep 27",
             "team_1": "Bayern München          ",
             "team_1_goal": "2",
-            "team_2": "anchester City          (",
-            "team_2_goal": ""
+            "team_2": "anchester City          ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 18",
             "team_1": "Napoli                  ",
             "team_1_goal": "1",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  2",
             "team_1": "Bayern München          ",
             "team_1_goal": "3",
-            "team_2": "apoli                   (",
-            "team_2_goal": ""
+            "team_2": "apoli                   ",
+            "team_2_goal": "2"
         },
         "Group_Match_5": {
             "date": "Nov 22",
             "team_1": "Bayern München          ",
             "team_1_goal": "3",
-            "team_2": "illarreal CF            (",
-            "team_2_goal": ""
+            "team_2": "illarreal CF            ",
+            "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  7",
             "team_1": "Manchester City         ",
             "team_1_goal": "2",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "Bayern München            ",
@@ -956,43 +960,43 @@
             "date": "Sep 19",
             "team_1": "Bayern München          ",
             "team_1_goal": "2",
-            "team_2": "alencia CF              (",
-            "team_2_goal": ""
+            "team_2": "alencia CF              ",
+            "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Oct  2",
             "team_1": "BATE Barysau            ",
             "team_1_goal": "3",
-            "team_2": "ayern München           (",
-            "team_2_goal": "x"
+            "team_2": "ayern München           ",
+            "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 23",
             "team_1": "Lille OSC               ",
             "team_1_goal": "0",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  7",
             "team_1": "Bayern München          ",
             "team_1_goal": "6",
-            "team_2": "ille OSC                (",
-            "team_2_goal": ""
+            "team_2": "ille OSC                ",
+            "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 20",
             "team_1": "Valencia CF             ",
             "team_1_goal": "1",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  5",
             "team_1": "Bayern München          ",
             "team_1_goal": "4",
-            "team_2": "ATE Barysau             (",
-            "team_2_goal": ""
+            "team_2": "ATE Barysau             ",
+            "team_2_goal": "1"
         },
         "Group_Match_Result": {
             "team": "Bayern München            ",
@@ -1038,43 +1042,43 @@
             "date": "Sep 17",
             "team_1": "Bayern München          ",
             "team_1_goal": "3",
-            "team_2": "SKA Moskva              (",
-            "team_2_goal": ""
+            "team_2": "SKA Moskva              ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Oct  2",
             "team_1": "Manchester City         ",
             "team_1_goal": "1",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "3"
         },
         "Group_Match_3": {
             "date": "Oct 23",
             "team_1": "Bayern München          ",
             "team_1_goal": "5",
-            "team_2": "iktoria Plzen           (",
-            "team_2_goal": ""
+            "team_2": "iktoria Plzen           ",
+            "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  5",
             "team_1": "Viktoria Plzen          ",
             "team_1_goal": "0",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 27",
             "team_1": "CSKA Moskva             ",
             "team_1_goal": "1",
-            "team_2": "ayern München           (",
-            "team_2_goal": "y"
+            "team_2": "ayern München           ",
+            "team_2_goal": "3"
         },
         "Group_Match_6": {
             "date": "Dec 10",
             "team_1": "Bayern München          ",
             "team_1_goal": "2",
-            "team_2": "anchester City          (",
-            "team_2_goal": ""
+            "team_2": "anchester City          ",
+            "team_2_goal": "3"
         },
         "Group_Match_Result": {
             "team": "Bayern München            ",
@@ -1113,43 +1117,43 @@
             "date": "Sep 17",
             "team_1": "Bayern München          ",
             "team_1_goal": "1",
-            "team_2": "anchester City          (",
-            "team_2_goal": ""
+            "team_2": "anchester City          ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 30",
             "team_1": "CSKA Moskva             ",
             "team_1_goal": "0",
-            "team_2": "ayern München           (",
-            "team_2_goal": "x"
+            "team_2": "ayern München           ",
+            "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 21",
             "team_1": "AS Roma                 ",
             "team_1_goal": "1",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "7"
         },
         "Group_Match_4": {
             "date": "Nov  5",
             "team_1": "Bayern München          ",
             "team_1_goal": "2",
-            "team_2": "S Roma                  (",
-            "team_2_goal": ""
+            "team_2": "S Roma                  ",
+            "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 25",
             "team_1": "Manchester City         ",
             "team_1_goal": "3",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "2"
         },
         "Group_Match_6": {
             "date": "Dec 10",
             "team_1": "Bayern München          ",
             "team_1_goal": "3",
-            "team_2": "SKA Moskva              (",
-            "team_2_goal": ""
+            "team_2": "SKA Moskva              ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "Bayern München            ",
@@ -1188,43 +1192,43 @@
             "date": "Sep 16",
             "team_1": "Olympiakos (Piraeus)    ",
             "team_1_goal": "0",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "3"
         },
         "Group_Match_2": {
             "date": "Sep 29",
             "team_1": "Bayern München          ",
             "team_1_goal": "5",
-            "team_2": "inamo Zagreb            (",
-            "team_2_goal": ""
+            "team_2": "inamo Zagreb            ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 20",
             "team_1": "Arsenal                 ",
             "team_1_goal": "2",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  4",
             "team_1": "Bayern München          ",
             "team_1_goal": "5",
-            "team_2": "rsenal                  (",
-            "team_2_goal": ""
+            "team_2": "rsenal                  ",
+            "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 24",
             "team_1": "Bayern München          ",
             "team_1_goal": "4",
-            "team_2": "lympiakos (Piraeus)     (",
-            "team_2_goal": ""
+            "team_2": "lympiakos (Piraeus)     ",
+            "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec  9",
             "team_1": "Dinamo Zagreb           ",
             "team_1_goal": "0",
-            "team_2": "ayern München           (",
-            "team_2_goal": ""
+            "team_2": "ayern München           ",
+            "team_2_goal": "2"
         },
         "Group_Match_Result": {
             "team": "Bayern München            ",

@@ -997,43 +997,43 @@
             "date": "Sep 15",
             "team_1": "FC Zürich               ",
             "team_1_goal": "2",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "5"
         },
         "Group_Match_2": {
             "date": "Sep 30",
             "team_1": "Real Madrid             ",
             "team_1_goal": "3",
-            "team_2": "lympique Marseille      (",
-            "team_2_goal": ""
+            "team_2": "lympique Marseille      ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 21",
             "team_1": "Real Madrid             ",
             "team_1_goal": "2",
-            "team_2": "ilan AC                 (",
-            "team_2_goal": ""
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "3"
         },
         "Group_Match_4": {
             "date": "Nov  3",
             "team_1": "Milan AC                ",
             "team_1_goal": "1",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 25",
             "team_1": "Real Madrid             ",
             "team_1_goal": "1",
-            "team_2": "C Zürich                (",
-            "team_2_goal": ""
+            "team_2": "C Zürich                ",
+            "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec  8",
             "team_1": "Olympique Marseille     ",
             "team_1_goal": "1",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "3"
         },
         "Group_Match_Result": {
             "team": "Real Madrid               ",
@@ -1058,43 +1058,43 @@
             "date": "Sep 15",
             "team_1": "Real Madrid             ",
             "team_1_goal": "2",
-            "team_2": "jax                     (",
-            "team_2_goal": ""
+            "team_2": "jax                     ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 28",
             "team_1": "AJ Auxerre              ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 19",
             "team_1": "Real Madrid             ",
             "team_1_goal": "2",
-            "team_2": "ilan AC                 (",
-            "team_2_goal": ""
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  3",
             "team_1": "Milan AC                ",
             "team_1_goal": "2",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "2"
         },
         "Group_Match_5": {
             "date": "Nov 23",
             "team_1": "Ajax                    ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "4"
         },
         "Group_Match_6": {
             "date": "Dec  8",
             "team_1": "Real Madrid             ",
             "team_1_goal": "4",
-            "team_2": "J Auxerre               (",
-            "team_2_goal": ""
+            "team_2": "J Auxerre               ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "Real Madrid               ",
@@ -1133,43 +1133,43 @@
             "date": "Sep 14",
             "team_1": "Dinamo Zagreb           ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Sep 27",
             "team_1": "Real Madrid             ",
             "team_1_goal": "3",
-            "team_2": "jax                     (",
-            "team_2_goal": ""
+            "team_2": "jax                     ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 18",
             "team_1": "Real Madrid             ",
             "team_1_goal": "4",
-            "team_2": "lympique Lyonnais       (",
-            "team_2_goal": ""
+            "team_2": "lympique Lyonnais       ",
+            "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  2",
             "team_1": "Olympique Lyonnais      ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "2"
         },
         "Group_Match_5": {
             "date": "Nov 22",
             "team_1": "Real Madrid             ",
             "team_1_goal": "6",
-            "team_2": "inamo Zagreb            (",
-            "team_2_goal": ""
+            "team_2": "inamo Zagreb            ",
+            "team_2_goal": "2"
         },
         "Group_Match_6": {
             "date": "Dec  7",
             "team_1": "Ajax                    ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "3"
         },
         "Group_Match_Result": {
             "team": "Real Madrid               ",
@@ -1208,43 +1208,43 @@
             "date": "Sep 18",
             "team_1": "Real Madrid             ",
             "team_1_goal": "3",
-            "team_2": "anchester City          (",
-            "team_2_goal": ""
+            "team_2": "anchester City          ",
+            "team_2_goal": "2"
         },
         "Group_Match_2": {
             "date": "Oct  3",
             "team_1": "Ajax                    ",
             "team_1_goal": "1",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "4"
         },
         "Group_Match_3": {
             "date": "Oct 24",
             "team_1": "Borussia Dortmund       ",
             "team_1_goal": "2",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  6",
             "team_1": "Real Madrid             ",
             "team_1_goal": "2",
-            "team_2": "orussia Dortmund        (",
-            "team_2_goal": ""
+            "team_2": "orussia Dortmund        ",
+            "team_2_goal": "2"
         },
         "Group_Match_5": {
             "date": "Nov 21",
             "team_1": "Manchester City         ",
             "team_1_goal": "1",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  4",
             "team_1": "Real Madrid             ",
             "team_1_goal": "4",
-            "team_2": "jax                     (",
-            "team_2_goal": ""
+            "team_2": "jax                     ",
+            "team_2_goal": "1"
         },
         "Group_Match_Result": {
             "team": "Real Madrid               ",
@@ -1283,43 +1283,43 @@
             "date": "Sep 17",
             "team_1": "Galatasaray SK          ",
             "team_1_goal": "1",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "6"
         },
         "Group_Match_2": {
             "date": "Oct  2",
             "team_1": "Real Madrid             ",
             "team_1_goal": "4",
-            "team_2": "C København             (",
-            "team_2_goal": ""
+            "team_2": "C København             ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 23",
             "team_1": "Real Madrid             ",
             "team_1_goal": "2",
-            "team_2": "uventus                 (",
-            "team_2_goal": ""
+            "team_2": "uventus                 ",
+            "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  5",
             "team_1": "Juventus                ",
             "team_1_goal": "2",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "2"
         },
         "Group_Match_5": {
             "date": "Nov 27",
             "team_1": "Real Madrid             ",
             "team_1_goal": "4",
-            "team_2": "alatasaray SK           (",
-            "team_2_goal": ""
+            "team_2": "alatasaray SK           ",
+            "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec 10",
             "team_1": "FC København            ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "2"
         },
         "Group_Match_Result": {
             "team": "Real Madrid               ",
@@ -1365,43 +1365,43 @@
             "date": "Sep 16",
             "team_1": "Real Madrid             ",
             "team_1_goal": "5",
-            "team_2": "C Basel                 (",
-            "team_2_goal": ""
+            "team_2": "C Basel                 ",
+            "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Oct  1",
             "team_1": "Ludogorets Razgrad      ",
             "team_1_goal": "1",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": "x"
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "2"
         },
         "Group_Match_3": {
             "date": "Oct 22",
             "team_1": "Liverpool               ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "3"
         },
         "Group_Match_4": {
             "date": "Nov  4",
             "team_1": "Real Madrid             ",
             "team_1_goal": "1",
-            "team_2": "iverpool                (",
-            "team_2_goal": ""
+            "team_2": "iverpool                ",
+            "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 26",
             "team_1": "FC Basel                ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  9",
             "team_1": "Real Madrid             ",
             "team_1_goal": "4",
-            "team_2": "udogorets Razgrad       (",
-            "team_2_goal": ""
+            "team_2": "udogorets Razgrad       ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "Real Madrid               ",
@@ -1440,43 +1440,43 @@
             "date": "Sep 15",
             "team_1": "Real Madrid             ",
             "team_1_goal": "4",
-            "team_2": "hakhtar Donetsk         (",
-            "team_2_goal": ""
+            "team_2": "hakhtar Donetsk         ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 30",
             "team_1": "Malmö FF                ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "2"
         },
         "Group_Match_3": {
             "date": "Oct 21",
             "team_1": "Paris Saint-Germain FC  ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  3",
             "team_1": "Real Madrid             ",
             "team_1_goal": "1",
-            "team_2": "aris Saint-Germain FC   (",
-            "team_2_goal": ""
+            "team_2": "aris Saint-Germain FC   ",
+            "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 25",
             "team_1": "Shakhtar Donetsk        ",
             "team_1_goal": "3",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": "x"
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "4"
         },
         "Group_Match_6": {
             "date": "Dec  8",
             "team_1": "Real Madrid             ",
             "team_1_goal": "8",
-            "team_2": "almö FF                 (",
-            "team_2_goal": ""
+            "team_2": "almö FF                 ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "Real Madrid               ",

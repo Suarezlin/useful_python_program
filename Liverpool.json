@@ -631,43 +631,43 @@
             "date": "Sep 16",
             "team_1": "Liverpool               ",
             "team_1_goal": "1",
-            "team_2": "ebreceni VSC            (",
-            "team_2_goal": ""
+            "team_2": "ebreceni VSC            ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 29",
             "team_1": "Fiorentina              ",
             "team_1_goal": "2",
-            "team_2": "iverpool                (",
-            "team_2_goal": ""
+            "team_2": "iverpool                ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 20",
             "team_1": "Liverpool               ",
             "team_1_goal": "1",
-            "team_2": "lympique Lyonnais       (",
-            "team_2_goal": ""
+            "team_2": "lympique Lyonnais       ",
+            "team_2_goal": "2"
         },
         "Group_Match_4": {
             "date": "Nov  4",
             "team_1": "Olympique Lyonnais      ",
             "team_1_goal": "1",
-            "team_2": "iverpool                (",
-            "team_2_goal": ""
+            "team_2": "iverpool                ",
+            "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 24",
             "team_1": "Debreceni VSC           ",
             "team_1_goal": "0",
-            "team_2": "iverpool                (",
-            "team_2_goal": "x"
+            "team_2": "iverpool                ",
+            "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  9",
             "team_1": "Liverpool               ",
             "team_1_goal": "1",
-            "team_2": "iorentina               (",
-            "team_2_goal": ""
+            "team_2": "iorentina               ",
+            "team_2_goal": "2"
         },
         "Group_Match_Result": {
             "team": "Liverpool                 ",
@@ -689,43 +689,43 @@
             "date": "Sep 16",
             "team_1": "Liverpool               ",
             "team_1_goal": "2",
-            "team_2": "udogorets Razgrad       (",
-            "team_2_goal": ""
+            "team_2": "udogorets Razgrad       ",
+            "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Oct  1",
             "team_1": "FC Basel                ",
             "team_1_goal": "1",
-            "team_2": "iverpool                (",
-            "team_2_goal": ""
+            "team_2": "iverpool                ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 22",
             "team_1": "Liverpool               ",
             "team_1_goal": "0",
-            "team_2": "eal Madrid              (",
-            "team_2_goal": ""
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "3"
         },
         "Group_Match_4": {
             "date": "Nov  4",
             "team_1": "Real Madrid             ",
             "team_1_goal": "1",
-            "team_2": "iverpool                (",
-            "team_2_goal": ""
+            "team_2": "iverpool                ",
+            "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 26",
             "team_1": "Ludogorets Razgrad      ",
             "team_1_goal": "2",
-            "team_2": "iverpool                (",
-            "team_2_goal": "x"
+            "team_2": "iverpool                ",
+            "team_2_goal": "2"
         },
         "Group_Match_6": {
             "date": "Dec  9",
             "team_1": "Liverpool               ",
             "team_1_goal": "1",
-            "team_2": "C Basel                 (",
-            "team_2_goal": ""
+            "team_2": "C Basel                 ",
+            "team_2_goal": "1"
         },
         "Group_Match_Result": {
             "team": "Liverpool                 ",

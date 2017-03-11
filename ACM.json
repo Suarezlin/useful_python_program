@@ -1,0 +1,721 @@
+{
+    "195556": {},
+    "195657": {},
+    "195758": {
+        "First_Round": {
+            "team_1": "Milan AC                 ",
+            "team_2": "SK Rapid Wien            ",
+            "first_turn": "4-1",
+            "second_turn": "2-5",
+            "sum": "6-6"
+        },
+        "Quarter_Finals": {
+            "team_1": "Rangers                  ",
+            "team_2": "Milan AC                 ",
+            "first_turn": "1-4",
+            "second_turn": "0-2",
+            "sum": "1-6"
+        },
+        "Semi_Finals": {
+            "team_1": "Manchester United        ",
+            "team_2": "Milan AC                 ",
+            "first_turn": "2-1",
+            "second_turn": "0-4",
+            "sum": "2-5"
+        },
+        "Final": {
+            "team_1": "Real Madrid              ",
+            "team_2": "  Milan AC               ",
+            "first_turn": "2  ",
+            "second_turn": "ter",
+            "sum": "xtr"
+        }
+    },
+    "195859": {},
+    "195960": {},
+    "196061": {},
+    "196162": {},
+    "196263": {},
+    "196364": {},
+    "196465": {},
+    "196566": {},
+    "196667": {},
+    "196768": {},
+    "196869": {},
+    "196970": {},
+    "197071": {},
+    "197172": {},
+    "197273": {},
+    "197374": {},
+    "197475": {},
+    "197576": {},
+    "197677": {},
+    "197778": {},
+    "197879": {},
+    "197980": {},
+    "198081": {},
+    "198182": {},
+    "198283": {},
+    "198384": {},
+    "198485": {},
+    "198586": {},
+    "198687": {},
+    "198788": {},
+    "198889": {},
+    "198990": {},
+    "199091": {},
+    "199192": {},
+    "199293": {},
+    "199394": {},
+    "199495": {},
+    "199596": {},
+    "199697": {},
+    "199798": {},
+    "199899": {},
+    "199900": {},
+    "200001": {
+        "Group_Match_1": {
+            "date": "Nov 21",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "2",
+            "team_2": "Galatasaray              ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_2": {
+            "date": "Dec  6",
+            "team_1": "Deportivo (La Coruña)   ",
+            "team_1_goal": "0",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Feb 14",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "1",
+            "team_2": "Paris Saint-Germain      ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Feb 20",
+            "team_1": "Paris Saint-Germain     ",
+            "team_1_goal": "1",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Mar  7",
+            "team_1": "Galatasaray             ",
+            "team_1_goal": "2",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_6": {
+            "date": "Mar 13",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "1",
+            "team_2": "Deportivo (La Coruña)    ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "1",
+            "draw": "4",
+            "lose": "1",
+            "goals": "6",
+            "lose_goals": "7",
+            "score": "7"
+        }
+    },
+    "200102": {},
+    "200203": {},
+    "200304": {},
+    "200405": {
+        "Group_Match_1": {
+            "date": "Sep 14",
+            "team_1": "Shakhtar Donets'k       ",
+            "team_1_goal": "0",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_2": {
+            "date": "Sep 29",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "3",
+            "team_2": "Celtic (Glasgow)         ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Oct 20",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "1",
+            "team_2": "FC Barcelona             ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_4": {
+            "date": "Nov  2",
+            "team_1": "FC Barcelona            ",
+            "team_1_goal": "2",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Nov 24",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "4",
+            "team_2": "Shakhtar Donets'k        ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_6": {
+            "date": "Dec  7",
+            "team_1": "Celtic (Glasgow)        ",
+            "team_1_goal": "0",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "4",
+            "draw": "1",
+            "lose": "1",
+            "goals": "10",
+            "lose_goals": "3",
+            "score": "13"
+        }
+    },
+    "200506": {
+        "Group_Match_1": {
+            "date": "Sep 13",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "3",
+            "team_2": "Fenerbahçe SK (Istanbul) ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_2": {
+            "date": "Sep 28",
+            "team_1": "Schalke 04              ",
+            "team_1_goal": "2",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_3": {
+            "date": "Oct 19",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "0",
+            "team_2": "PSV (Eindhoven)          ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_4": {
+            "date": "Nov  1",
+            "team_1": "PSV (Eindhoven)         ",
+            "team_1_goal": "1",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_5": {
+            "date": "Nov 23",
+            "team_1": "Fenerbahçe SK (Istanbul)",
+            "team_1_goal": "0",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "4"
+        },
+        "Group_Match_6": {
+            "date": "Dec  6",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "3",
+            "team_2": "Schalke 04               ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "3",
+            "draw": "2",
+            "lose": "1",
+            "goals": "12",
+            "lose_goals": "6",
+            "score": "11"
+        },
+        "1_8_final": {
+            "team_1": "Bayern München           ",
+            "team_2": "Milan AC                 ",
+            "first_turn": "1-1",
+            "second_turn": "1-4",
+            "sum": "2-5"
+        },
+        "Quarter_Finals": {
+            "team_1": "Olympique Lyonnais       ",
+            "team_2": "Milan AC                 ",
+            "first_turn": "0-0",
+            "second_turn": "1-3",
+            "sum": "1-3"
+        },
+        "Semi_Finals": {
+            "team_1": "Milan AC                 ",
+            "team_2": "FC Barcelona             ",
+            "first_turn": "0-1",
+            "second_turn": "0-0",
+            "sum": "0-1"
+        }
+    },
+    "200607": {
+        "Group_Match_1": {
+            "date": "Sep 13",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "3",
+            "team_2": "AEK (Athinai)            ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_2": {
+            "date": "Sep 26",
+            "team_1": "Lille OSC               ",
+            "team_1_goal": "0",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_3": {
+            "date": "Oct 17",
+            "team_1": "RSC Anderlecht          ",
+            "team_1_goal": "0",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Nov  1",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "4",
+            "team_2": "RSC Anderlecht           ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Nov 21",
+            "team_1": "AEK (Athinai)           ",
+            "team_1_goal": "1",
+            "team_2": "Milan AC                 ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_6": {
+            "date": "Dec  6",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "0",
+            "team_2": "Lille OSC                ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "3",
+            "draw": "1",
+            "lose": "2",
+            "goals": "8",
+            "lose_goals": "4",
+            "score": "10"
+        },
+        "1_8_final": {
+            "team_1": "Celtic (Glasgow)         ",
+            "team_2": "Milan AC                 ",
+            "first_turn": "0-0",
+            "second_turn": "0-1",
+            "sum": "0-1"
+        },
+        "Quarter_Finals": {
+            "team_1": "Milan AC                 ",
+            "team_2": "Bayern München           ",
+            "first_turn": "2-2",
+            "second_turn": "2-0",
+            "sum": "4-2"
+        },
+        "Semi_Finals": {
+            "team_1": "Manchester United        ",
+            "team_2": "Milan AC                 ",
+            "first_turn": "3-2",
+            "second_turn": "0-3",
+            "sum": "3-5"
+        },
+        "Final": {
+            "team_1": "Milan AC                 ",
+            "team_2": "Liverpool                ",
+            "first_turn": "2-1",
+            "second_turn": "",
+            "sum": ""
+        }
+    },
+    "200708": {
+        "Group_Match_1": {
+            "date": "Sep 18",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "2",
+            "team_2": "L Benfica (Lisboa)       ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_2": {
+            "date": "Oct  3",
+            "team_1": "Celtic                  ",
+            "team_1_goal": "2",
+            "team_2": "ilan AC                  ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Oct 24",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "4",
+            "team_2": "hakhtar Donetsk          ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Nov  6",
+            "team_1": "Shakhtar Donetsk        ",
+            "team_1_goal": "0",
+            "team_2": "ilan AC                  ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_5": {
+            "date": "Nov 28",
+            "team_1": "SL Benfica (Lisboa)     ",
+            "team_1_goal": "1",
+            "team_2": "ilan AC                  ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_6": {
+            "date": "Dec  4",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "1",
+            "team_2": "eltic                    ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "4",
+            "draw": "1",
+            "lose": "1",
+            "goals": "12",
+            "lose_goals": "5",
+            "score": "13"
+        },
+        "1_8_final": {
+            "team_1": "Arsenal                  ",
+            "team_2": "Milan AC                 ",
+            "first_turn": "0-0",
+            "second_turn": "2-0",
+            "sum": "2-0"
+        }
+    },
+    "200809": {},
+    "200910": {
+        "Group_Match_1": {
+            "date": "Sep 15",
+            "team_1": "Olympique Marseille     ",
+            "team_1_goal": "1",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_2": {
+            "date": "Sep 30",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "0",
+            "team_2": "C Zürich                ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Oct 21",
+            "team_1": "Real Madrid             ",
+            "team_1_goal": "2",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_4": {
+            "date": "Nov  3",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "1",
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Nov 25",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "1",
+            "team_2": "lympique Marseille      ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_6": {
+            "date": "Dec  8",
+            "team_1": "FC Zürich               ",
+            "team_1_goal": "1",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "2",
+            "draw": "3",
+            "lose": "1",
+            "goals": "8",
+            "lose_goals": "7",
+            "score": "9"
+        },
+        "1_8_final": {
+            "team_1": "Milan AC                 ",
+            "team_2": "Manchester United        ",
+            "first_turn": "2-3",
+            "second_turn": "0-4",
+            "sum": "2-7"
+        }
+    },
+    "201011": {
+        "Group_Match_1": {
+            "date": "Sep 15",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "2",
+            "team_2": "J Auxerre               ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_2": {
+            "date": "Sep 28",
+            "team_1": "Ajax                    ",
+            "team_1_goal": "1",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Oct 19",
+            "team_1": "Real Madrid             ",
+            "team_1_goal": "2",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_4": {
+            "date": "Nov  3",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "2",
+            "team_2": "eal Madrid              ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_5": {
+            "date": "Nov 23",
+            "team_1": "AJ Auxerre              ",
+            "team_1_goal": "0",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_6": {
+            "date": "Dec  8",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "0",
+            "team_2": "jax                     ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "2",
+            "draw": "2",
+            "lose": "2",
+            "goals": "7",
+            "lose_goals": "7",
+            "score": "8"
+        },
+        "1_8_final": {
+            "team_1": "Milan AC                 ",
+            "team_2": "Tottenham Hotspur        ",
+            "first_turn": "0-1",
+            "second_turn": "0-0",
+            "sum": "0-1"
+        }
+    },
+    "201112": {
+        "Group_Match_1": {
+            "date": "Sep 13",
+            "team_1": "FC Barcelona            ",
+            "team_1_goal": "2",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_2": {
+            "date": "Sep 28",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "2",
+            "team_2": "iktoria Plzen           ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_3": {
+            "date": "Oct 19",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "2",
+            "team_2": "ATE Barysau             ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_4": {
+            "date": "Nov  1",
+            "team_1": "BATE Barysau            ",
+            "team_1_goal": "1",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Nov 23",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "2",
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_6": {
+            "date": "Dec  6",
+            "team_1": "Viktoria Plzen          ",
+            "team_1_goal": "2",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "2",
+            "draw": "3",
+            "lose": "1",
+            "goals": "11",
+            "lose_goals": "8",
+            "score": "9"
+        },
+        "1_8_final": {
+            "team_1": "Milan AC                 ",
+            "team_2": "Arsenal                  ",
+            "first_turn": "4-0",
+            "second_turn": "0-3",
+            "sum": "4-3"
+        },
+        "Quarter_Finals": {
+            "team_1": "Milan AC                 ",
+            "team_2": "FC Barcelona             ",
+            "first_turn": "0-0",
+            "second_turn": "1-3",
+            "sum": "1-3"
+        }
+    },
+    "201213": {
+        "Group_Match_1": {
+            "date": "Sep 18",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "0",
+            "team_2": "SC Anderlecht           ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_2": {
+            "date": "Oct  3",
+            "team_1": "Zenit Sankt Peterburg   ",
+            "team_1_goal": "2",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_3": {
+            "date": "Oct 24",
+            "team_1": "Málaga CF               ",
+            "team_1_goal": "1",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_4": {
+            "date": "Nov  6",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "1",
+            "team_2": "álaga CF                ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Nov 21",
+            "team_1": "RSC Anderlecht          ",
+            "team_1_goal": "1",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_6": {
+            "date": "Dec  4",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "0",
+            "team_2": "enit Sankt Peterburg    ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "2",
+            "draw": "2",
+            "lose": "2",
+            "goals": "7",
+            "lose_goals": "6",
+            "score": "8"
+        },
+        "1_8_final": {
+            "team_1": "Milan AC                 ",
+            "team_2": "FC Barcelona             ",
+            "first_turn": "2-0",
+            "second_turn": "0-4",
+            "sum": "2-4"
+        }
+    },
+    "201314": {
+        "Group_Match_1": {
+            "date": "Sep 18",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "2",
+            "team_2": "eltic                   ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_2": {
+            "date": "Oct  1",
+            "team_1": "Ajax                    ",
+            "team_1_goal": "1",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Oct 22",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "1",
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Nov  6",
+            "team_1": "FC Barcelona            ",
+            "team_1_goal": "3",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_5": {
+            "date": "Nov 26",
+            "team_1": "Celtic                  ",
+            "team_1_goal": "0",
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_6": {
+            "date": "Dec 11",
+            "team_1": "Milan AC                ",
+            "team_1_goal": "0",
+            "team_2": "jax                     ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_Result": {
+            "team": "Milan AC                  ",
+            "matches": "6",
+            "win": "2",
+            "draw": "3",
+            "lose": "1",
+            "goals": "8",
+            "lose_goals": "5",
+            "score": "9"
+        },
+        "1_8_final": {
+            "team_1": "Milan AC                 ",
+            "team_2": "Atlético Madrid          ",
+            "first_turn": "0-1",
+            "second_turn": "1-4",
+            "sum": "1-5"
+        }
+    },
+    "201415": {},
+    "201516": {},
+    "201617": {}
+}

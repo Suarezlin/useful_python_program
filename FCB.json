@@ -233,57 +233,57 @@
     },
     "199293": {},
     "199394": {
-        "Group_Match_1": {
+        "First_Round": {
             "team_1": "Dinamo Kiev              ",
             "team_2": "FC Barcelona             ",
             "first_turn": "3-1",
             "second_turn": "1-4",
             "sum": "4-5"
         },
-        "Group_Match_2": {
+        "Second_Round": {
             "team_1": "FC Barcelona             ",
             "team_2": "FK Austria (Vienna)      ",
             "first_turn": "3-0",
             "second_turn": "2-1",
             "sum": "5-1"
         },
-        "Group_Match_3": {
+        "Quarter_Finals_1": {
             "team_1": "Galatasaray              ",
             "team_1_goals": "0",
             "team_2": "FC Barcelona             ",
             "team_2_goals": "0"
         },
-        "Group_Match_4": {
+        "Quarter_Finals_2": {
             "team_1": "FC Barcelona             ",
             "team_1_goals": "2",
             "team_2": "AS Monaco                ",
             "team_2_goals": "0"
         },
-        "Group_Match_5": {
+        "Quarter_Finals_3": {
             "team_1": "Spartak Moscow           ",
             "team_1_goals": "2",
             "team_2": "FC Barcelona             ",
             "team_2_goals": "2"
         },
-        "Group_Match_6": {
+        "Quarter_Finals_4": {
             "team_1": "FC Barcelona             ",
             "team_1_goals": "5",
             "team_2": "Spartak Moscow           ",
             "team_2_goals": "1"
         },
-        "Group_Match_Result": {
+        "Quarter_Finals_5": {
             "team_1": "FC Barcelona             ",
             "team_1_goals": "3",
             "team_2": "Galatasaray              ",
             "team_2_goals": "0"
         },
-        "1_8_final": {
+        "Quarter_Finals_6": {
             "team_1": "AS Monaco                ",
             "team_1_goals": "0",
             "team_2": "FC Barcelona             ",
             "team_2_goals": "1"
         },
-        "Quarter_Finals": {
+        "Quarter_Final_Result": {
             "team": "FC BARCELONA               ",
             "matches": "6",
             "win": "4",
@@ -293,13 +293,13 @@
             "lose_goals": " 3",
             "score": "10"
         },
-        "Semi_Finals": {
+        "Final": {
             "team_1": "FC Barcelona             ",
             "team_1_goals": "3",
             "team_2": "FC Porto                 ",
             "team_2_goals": "0"
         },
-        "Final": {
+        "ps": {
             "team_1": "AC Milan                 ",
             "team_1_goals": "4",
             "team_2": "FC Barcelona             ",
@@ -309,55 +309,49 @@
     "199495": {
         "Group_Match_1": {
             "team_1": "FC Barcelona             ",
-            "team_2": "  Galatasaray            ",
-            "first_turn": "1",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "2",
+            "team_2": "Galatasaray              ",
+            "team_2_goals": "1"
         },
         "Group_Match_2": {
             "team_1": "IFK Gothenburg           ",
-            "team_2": "  FC Barcelona           ",
-            "first_turn": "1",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "2",
+            "team_2": "FC Barcelona             ",
+            "team_2_goals": "1"
         },
         "Group_Match_3": {
             "team_1": "Manchester United        ",
-            "team_2": "  FC Barcelona           ",
-            "first_turn": "2",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "2",
+            "team_2": "FC Barcelona             ",
+            "team_2_goals": "2"
         },
         "Group_Match_4": {
             "team_1": "FC Barcelona             ",
-            "team_2": "  Manchester United      ",
-            "first_turn": "0",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "4",
+            "team_2": "Manchester United        ",
+            "team_2_goals": "0"
         },
         "Group_Match_5": {
             "team_1": "Galatasaray              ",
-            "team_2": "  FC Barcelona           ",
-            "first_turn": "1",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "2",
+            "team_2": "FC Barcelona             ",
+            "team_2_goals": "1"
         },
         "Group_Match_6": {
             "team_1": "FC Barcelona             ",
-            "team_2": "  IFK Gothenburg         ",
-            "first_turn": "1",
-            "second_turn": "",
-            "sum": ""
+            "team_1_goals": "1",
+            "team_2": "IFK Gothenburg           ",
+            "team_2_goals": "1"
         },
         "Group_Match_Result": {
             "team": "FC BARCELONA               ",
             "matches": "6",
             "win": "2",
-            "draw": "2",
+            "drew": "2",
             "lose": "2",
             "goals": "11",
-            "lose_goals": "8",
-            "score": "6"
+            "lose_goals": " 8",
+            "score": " 6"
         },
         "1_8_final": {
             "team_1": "FC Barcelona             ",
@@ -795,43 +789,43 @@
             "date": "Sep 16",
             "team_1": "Internazionale          ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 29",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "2",
-            "team_2": "ynamo Kyiv              (",
-            "team_2_goal": ""
+            "team_2": "ynamo Kyiv              ",
+            "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 20",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "1",
-            "team_2": "ubin Kazan              (",
-            "team_2_goal": ""
+            "team_2": "ubin Kazan              ",
+            "team_2_goal": "2"
         },
         "Group_Match_4": {
             "date": "Nov  4",
             "team_1": "Rubin Kazan             ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 24",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "2",
-            "team_2": "nternazionale           (",
-            "team_2_goal": ""
+            "team_2": "nternazionale           ",
+            "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec  9",
             "team_1": "Dynamo Kyiv             ",
             "team_1_goal": "1",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "2"
         },
         "Group_Match_Result": {
             "team": "FC Barcelona              ",
@@ -870,43 +864,43 @@
             "date": "Sep 14",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "5",
-            "team_2": "anathinaikos            (",
-            "team_2_goal": ""
+            "team_2": "anathinaikos            ",
+            "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Sep 29",
             "team_1": "Rubin Kazan             ",
             "team_1_goal": "1",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 20",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "2",
-            "team_2": "C København             (",
-            "team_2_goal": ""
+            "team_2": "C København             ",
+            "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  2",
             "team_1": "FC København            ",
             "team_1_goal": "1",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 24",
             "team_1": "Panathinaikos           ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "3"
         },
         "Group_Match_6": {
             "date": "Dec  7",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "2",
-            "team_2": "ubin Kazan              (",
-            "team_2_goal": ""
+            "team_2": "ubin Kazan              ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "FC Barcelona              ",
@@ -952,43 +946,43 @@
             "date": "Sep 13",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "2",
-            "team_2": "ilan AC                 (",
-            "team_2_goal": ""
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "2"
         },
         "Group_Match_2": {
             "date": "Sep 28",
             "team_1": "BATE Barysau            ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": "y"
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "5"
         },
         "Group_Match_3": {
             "date": "Oct 19",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "2",
-            "team_2": "iktoria Plzen           (",
-            "team_2_goal": ""
+            "team_2": "iktoria Plzen           ",
+            "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  1",
             "team_1": "Viktoria Plzen          ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": "x"
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "4"
         },
         "Group_Match_5": {
             "date": "Nov 23",
             "team_1": "Milan AC                ",
             "team_1_goal": "2",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "3"
         },
         "Group_Match_6": {
             "date": "Dec  6",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "4",
-            "team_2": "ATE Barysau             (",
-            "team_2_goal": ""
+            "team_2": "ATE Barysau             ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "FC Barcelona              ",
@@ -1027,43 +1021,43 @@
             "date": "Sep 19",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "3",
-            "team_2": "partak Moskva           (",
-            "team_2_goal": ""
+            "team_2": "partak Moskva           ",
+            "team_2_goal": "2"
         },
         "Group_Match_2": {
             "date": "Oct  2",
             "team_1": "SL Benfica (Lisboa)     ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "2"
         },
         "Group_Match_3": {
             "date": "Oct 23",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "2",
-            "team_2": "eltic                   (",
-            "team_2_goal": ""
+            "team_2": "eltic                   ",
+            "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  7",
             "team_1": "Celtic                  ",
             "team_1_goal": "2",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 20",
             "team_1": "Spartak Moskva          ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "3"
         },
         "Group_Match_6": {
             "date": "Dec  5",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "0",
-            "team_2": "L Benfica (Lisboa)      (",
-            "team_2_goal": ""
+            "team_2": "L Benfica (Lisboa)      ",
+            "team_2_goal": "0"
         },
         "Group_Match_Result": {
             "team": "FC Barcelona              ",
@@ -1102,43 +1096,43 @@
             "date": "Sep 18",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "4",
-            "team_2": "jax                     (",
-            "team_2_goal": ""
+            "team_2": "jax                     ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Oct  1",
             "team_1": "Celtic                  ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 22",
             "team_1": "Milan AC                ",
             "team_1_goal": "1",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  6",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "3",
-            "team_2": "ilan AC                 (",
-            "team_2_goal": ""
+            "team_2": "ilan AC                 ",
+            "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 26",
             "team_1": "Ajax                    ",
             "team_1_goal": "2",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec 11",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "6",
-            "team_2": "eltic                   (",
-            "team_2_goal": ""
+            "team_2": "eltic                   ",
+            "team_2_goal": "1"
         },
         "Group_Match_Result": {
             "team": "FC Barcelona              ",
@@ -1170,43 +1164,43 @@
             "date": "Sep 17",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "1",
-            "team_2": "POEL Lefkosia           (",
-            "team_2_goal": ""
+            "team_2": "POEL Lefkosia           ",
+            "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 30",
             "team_1": "Paris Saint-Germain FC  ",
             "team_1_goal": "3",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "2"
         },
         "Group_Match_3": {
             "date": "Oct 21",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "3",
-            "team_2": "jax                     (",
-            "team_2_goal": ""
+            "team_2": "jax                     ",
+            "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  5",
             "team_1": "Ajax                    ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "2"
         },
         "Group_Match_5": {
             "date": "Nov 25",
             "team_1": "APOEL Lefkosia          ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "4"
         },
         "Group_Match_6": {
             "date": "Dec 10",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "3",
-            "team_2": "aris Saint-Germain FC   (",
-            "team_2_goal": ""
+            "team_2": "aris Saint-Germain FC   ",
+            "team_2_goal": "1"
         },
         "Group_Match_Result": {
             "team": "FC Barcelona              ",
@@ -1252,43 +1246,43 @@
             "date": "Sep 16",
             "team_1": "AS Roma                 ",
             "team_1_goal": "1",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Sep 20",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "2",
-            "team_2": "ayer Leverkusen         (",
-            "team_2_goal": ""
+            "team_2": "ayer Leverkusen         ",
+            "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 20",
             "team_1": "BATE Barysau            ",
             "team_1_goal": "0",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "2"
         },
         "Group_Match_4": {
             "date": "Nov  4",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "3",
-            "team_2": "ATE Barysau             (",
-            "team_2_goal": ""
+            "team_2": "ATE Barysau             ",
+            "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 24",
             "team_1": "FC Barcelona            ",
             "team_1_goal": "6",
-            "team_2": "S Roma                  (",
-            "team_2_goal": ""
+            "team_2": "S Roma                  ",
+            "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  9",
             "team_1": "Bayer Leverkusen        ",
             "team_1_goal": "1",
-            "team_2": "C Barcelona             (",
-            "team_2_goal": ""
+            "team_2": "C Barcelona             ",
+            "team_2_goal": "1"
         },
         "Group_Match_Result": {
             "team": "FC Barcelona              ",

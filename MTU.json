@@ -2,27 +2,20 @@
     "195556": {},
     "195657": {
         "First_Round": {
-            "team_1": "RSC Anderlecht           ",
-            "team_2": "Manchester United        ",
-            "first_turn": "0-2",
-            "second_turn": "0-1",
-            "sum": "0-1"
-        },
-        "Quarter_Finals": {
             "team_1": "Manchester United        ",
             "team_2": "Borussia Dortmund        ",
             "first_turn": "3-2",
             "second_turn": "0-0",
             "sum": "3-2"
         },
-        "Semi_Finals": {
+        "Quarter_Finals": {
             "team_1": "Athletic Bilbao          ",
             "team_2": "Manchester United        ",
             "first_turn": "5-3",
             "second_turn": "0-3",
             "sum": "5-6"
         },
-        "Final": {
+        "Semi_Finals": {
             "team_1": "Real Madrid              ",
             "team_2": "Manchester United        ",
             "first_turn": "3-1",
@@ -31,7 +24,7 @@
         }
     },
     "195758": {
-        "First_Round": {
+        "Round": {
             "team_1": "Shamrock Rovers          ",
             "team_2": "Manchester United        ",
             "first_turn": "0-6",
@@ -188,7 +181,22 @@
     "199091": {},
     "199192": {},
     "199293": {},
-    "199394": {},
+    "199394": {
+        "First_Round": {
+            "team_1": "Kispest-Honved           ",
+            "team_2": "Manchester United        ",
+            "first_turn": "2-3",
+            "second_turn": "1-2",
+            "sum": "3-5"
+        },
+        "Second_Round": {
+            "team_1": "Manchester United        ",
+            "team_2": "Galatasaray              ",
+            "first_turn": "3-3",
+            "second_turn": "0-0",
+            "sum": "3-3"
+        }
+    },
     "199495": {
         "Group_Match_1": {
             "team_1": "Manchester United        ",
@@ -238,54 +246,374 @@
         }
     },
     "199596": {},
-    "199697": {},
-    "199798": {},
-    "199899": {},
-    "199900": {},
-    "200001": {
+    "199697": {
         "Group_Match_1": {
-            "date": "Sep 13",
+            "date": "Sep 11",
+            "team_1": "Juventus                ",
+            "team_1_goal": " ",
+            "team_2": "  Manchester United      ",
+            "team_2_goal": ")"
+        },
+        "Group_Match_2": {
+            "date": "Sep 25",
             "team_1": "Manchester United       ",
-            "team_1_goal": "5",
-            "team_2": "RSC Anderlecht           ",
+            "team_1_goal": " ",
+            "team_2": "  SK Rapid (Wien)        ",
+            "team_2_goal": ")"
+        },
+        "Group_Match_3": {
+            "date": "Oct 16",
+            "team_1": "Fenerbahçe              ",
+            "team_1_goal": " ",
+            "team_2": "  Manchester United      ",
+            "team_2_goal": ")"
+        },
+        "Group_Match_4": {
+            "date": "Oct 30",
+            "team_1": "Manchester United       ",
+            "team_1_goal": " ",
+            "team_2": "  Fenerbahçe             ",
+            "team_2_goal": ")"
+        },
+        "Group_Match_5": {
+            "date": "Nov 20",
+            "team_1": "Manchester United       ",
+            "team_1_goal": " ",
+            "team_2": "  Juventus               ",
+            "team_2_goal": ")"
+        },
+        "Group_Match_6": {
+            "date": "Dec 4",
+            "team_1": " SK Rapid (Wien)        ",
+            "team_1_goal": ")",
+            "team_2": "   Manchester United     ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "3",
+            "draw": "0",
+            "lose": "3",
+            "goals": "6",
+            "lose_goals": "3",
+            "score": "9"
+        },
+        "1_8_final": {
+            "team_1": "Manchester United        ",
+            "team_2": "FC Porto                 ",
+            "first_turn": "4-0",
+            "second_turn": "0-0",
+            "sum": "4-0"
+        },
+        "Quarter_Finals": {
+            "team_1": "Borussia Dortmund        ",
+            "team_2": "Manchester United        ",
+            "first_turn": "1-0",
+            "second_turn": "1-0",
+            "sum": "2-0"
+        }
+    },
+    "199798": {
+        "Group_Match_1": {
+            "date": "Sep 17",
+            "team_1": "1.FC Kosice             ",
+            "team_1_goal": " ",
+            "team_2": "   Manchester United     ",
             "team_2_goal": "1"
         },
         "Group_Match_2": {
-            "date": "Sep 19",
-            "team_1": "Dynamo Kyiv             ",
-            "team_1_goal": "0",
-            "team_2": "Manchester United        ",
-            "team_2_goal": "0"
+            "date": "Oct  1",
+            "team_1": "Manchester United       ",
+            "team_1_goal": " ",
+            "team_2": "   Juventus              ",
+            "team_2_goal": "1"
         },
         "Group_Match_3": {
-            "date": "Sep 26",
-            "team_1": "PSV (Eindhoven)         ",
-            "team_1_goal": "3",
-            "team_2": "Manchester United        ",
-            "team_2_goal": "1"
+            "date": "Oct 22",
+            "team_1": "Manchester United       ",
+            "team_1_goal": " ",
+            "team_2": "   Feyenoord             ",
+            "team_2_goal": "0"
         },
         "Group_Match_4": {
-            "date": "Oct 18",
-            "team_1": "Manchester United       ",
-            "team_1_goal": "3",
-            "team_2": "PSV (Eindhoven)          ",
-            "team_2_goal": "1"
+            "date": "Nov  5",
+            "team_1": "Feyenoord               ",
+            "team_1_goal": " ",
+            "team_2": "   Manchester United     ",
+            "team_2_goal": "2"
         },
         "Group_Match_5": {
-            "date": "Oct 24",
-            "team_1": "RSC Anderlecht          ",
-            "team_1_goal": "2",
-            "team_2": "Manchester United        ",
-            "team_2_goal": "1"
+            "date": "Nov 27",
+            "team_1": "Manchester United       ",
+            "team_1_goal": " ",
+            "team_2": "   1.FC Kosice           ",
+            "team_2_goal": "0"
         },
         "Group_Match_6": {
-            "date": "Nov  8",
-            "team_1": "Manchester United       ",
-            "team_1_goal": "1",
-            "team_2": "Dynamo Kyiv              ",
+            "date": "Dec 10",
+            "team_1": "Juventus                ",
+            "team_1_goal": " ",
+            "team_2": "   Manchester United     ",
             "team_2_goal": "0"
         },
         "Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "5",
+            "draw": "0",
+            "lose": "1",
+            "goals": "14",
+            "lose_goals": "5",
+            "score": "15"
+        },
+        "1_8_final": {
+            "team_1": "AS Monaco                ",
+            "team_2": "Manchester United        ",
+            "first_turn": "0-0",
+            "second_turn": "1-1",
+            "sum": "1-1"
+        }
+    },
+    "199899": {
+        "Group_Match_1": {
+            "date": "Sep 16",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "3",
+            "team_2": " FC Barcelona            ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_2": {
+            "date": "Sep 30",
+            "team_1": "Bayern München          ",
+            "team_1_goal": "2",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "2"
+        },
+        "Group_Match_3": {
+            "date": "Oct 21",
+            "team_1": "Brøndby IF              ",
+            "team_1_goal": "2",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "6"
+        },
+        "Group_Match_4": {
+            "date": "Nov 4",
+            "team_1": " Manchester United      ",
+            "team_1_goal": " ",
+            "team_2": "  Brøndby IF             ",
+            "team_2_goal": " "
+        },
+        "Group_Match_5": {
+            "date": "Nov 25",
+            "team_1": "FC Barcelona            ",
+            "team_1_goal": "3",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "3"
+        },
+        "Group_Match_6": {
+            "date": "Dec 9",
+            "team_1": " Manchester United      ",
+            "team_1_goal": " ",
+            "team_2": "  Bayern München         ",
+            "team_2_goal": " "
+        },
+        "Group_Match_Result": {
+            "team": "MANCHESTER UNITED         ",
+            "matches": "6",
+            "win": "2",
+            "draw": "4",
+            "lose": "0",
+            "goals": "20",
+            "lose_goals": "11",
+            "score": "10"
+        },
+        "1_8_final": {
+            "team_1": "Manchester United        ",
+            "team_2": "Internazionale           ",
+            "first_turn": "2-0",
+            "second_turn": "1-1",
+            "sum": "3-1"
+        },
+        "Quarter_Finals": {
+            "team_1": "Manchester United        ",
+            "team_2": "Juventus                 ",
+            "first_turn": "1-1",
+            "second_turn": "3-2",
+            "sum": "4-3"
+        },
+        "Semi_Finals": {
+            "team_1": "Manchester United        ",
+            "team_2": "  Bayern München         ",
+            "first_turn": "1",
+            "second_turn": "",
+            "sum": ""
+        },
+        "Final": {
+            "team_1": "Lazio                    ",
+            "team_2": "  Manchester United      ",
+            "first_turn": "0",
+            "second_turn": "",
+            "sum": ""
+        }
+    },
+    "199900": {
+        "1_Group_Match_1": {
+            "date": "Sep 14",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "0",
+            "team_2": " Croatia Zagreb          ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_2": {
+            "date": "Sep 22",
+            "team_1": "SK Sturm Graz           ",
+            "team_1_goal": "0",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "3"
+        },
+        "1_Group_Match_3": {
+            "date": "Sep 29",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "2",
+            "team_2": " Olympique Marseille     ",
+            "team_2_goal": "1"
+        },
+        "1_Group_Match_4": {
+            "date": "Oct 19",
+            "team_1": "Olympique Marseille     ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_5": {
+            "date": "Oct 27",
+            "team_1": "Croatia Zagreb          ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "2"
+        },
+        "1_Group_Match_6": {
+            "date": "Nov  2",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "2",
+            "team_2": " SK Sturm Graz           ",
+            "team_2_goal": "1"
+        },
+        "1_Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "4",
+            "draw": "1",
+            "lose": "1",
+            "goals": "9",
+            "lose_goals": "4",
+            "score": "13"
+        },
+        "2_Group_Match_1": {
+            "date": "Nov 23",
+            "team_1": "Fiorentina              ",
+            "team_1_goal": "2",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_2": {
+            "date": "Dec  8",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "3",
+            "team_2": " Valencia CF             ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_3": {
+            "date": "Mar  1",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "2",
+            "team_2": " Girondins Bordeaux      ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_4": {
+            "date": "Mar  7",
+            "team_1": "Girondins Bordeaux      ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "2"
+        },
+        "2_Group_Match_5": {
+            "date": "Mar 15",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "3",
+            "team_2": " Fiorentina              ",
+            "team_2_goal": "1"
+        },
+        "2_Group_Match_6": {
+            "date": "Mar 21",
+            "team_1": "Valencia CF             ",
+            "team_1_goal": "0",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "4",
+            "draw": "1",
+            "lose": "1",
+            "goals": "10",
+            "lose_goals": "4",
+            "score": "13"
+        },
+        "1_8_final": {
+            "team_1": "Real Madrid              ",
+            "team_2": "Manchester United        ",
+            "first_turn": "0-0",
+            "second_turn": "3-2",
+            "sum": "3-2"
+        }
+    },
+    "200001": {
+        "1_Group_Match_1": {
+            "date": "Sep 13",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "5",
+            "team_2": " RSC Anderlecht          ",
+            "team_2_goal": "1"
+        },
+        "1_Group_Match_2": {
+            "date": "Sep 19",
+            "team_1": "Dynamo Kyiv             ",
+            "team_1_goal": "0",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_3": {
+            "date": "Sep 26",
+            "team_1": "PSV (Eindhoven)         ",
+            "team_1_goal": "3",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "1_Group_Match_4": {
+            "date": "Oct 18",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "3",
+            "team_2": " PSV (Eindhoven)         ",
+            "team_2_goal": "1"
+        },
+        "1_Group_Match_5": {
+            "date": "Oct 24",
+            "team_1": "RSC Anderlecht          ",
+            "team_1_goal": "2",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "1_Group_Match_6": {
+            "date": "Nov  8",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "1",
+            "team_2": " Dynamo Kyiv             ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_Result": {
             "team": "Manchester United         ",
             "matches": "6",
             "win": "3",
@@ -295,35 +623,59 @@
             "lose_goals": "7",
             "score": "10"
         },
-        "1_8_final": {
+        "2_Group_Match_1": {
             "date": "Nov 21",
             "team_1": "Manchester United       ",
             "team_1_goal": "3",
-            "team_2": "Panathinaikos            ",
+            "team_2": " Panathinaikos           ",
             "team_2_goal": "1"
         },
-        "Quarter_Finals": {
+        "2_Group_Match_2": {
             "date": "Dec  6",
             "team_1": "SK Sturm Graz           ",
             "team_1_goal": "0",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "2"
         },
-        "Semi_Finals": {
+        "2_Group_Match_3": {
             "date": "Feb 14",
             "team_1": "Valencia CF             ",
             "team_1_goal": "0",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "0"
         },
-        "Final": {
+        "2_Group_Match_4": {
             "date": "Feb 20",
             "team_1": "Manchester United       ",
             "team_1_goal": "1",
-            "team_2": "Valencia CF              ",
+            "team_2": " Valencia CF             ",
             "team_2_goal": "1"
         },
-        "ps": {
+        "2_Group_Match_5": {
+            "date": "Mar  7",
+            "team_1": "Panathinaikos           ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "2_Group_Match_6": {
+            "date": "Mar 13",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "3",
+            "team_2": " SK Sturm Graz           ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "3",
+            "draw": "3",
+            "lose": "0",
+            "goals": "10",
+            "lose_goals": "3",
+            "score": "12"
+        },
+        "1_8_final": {
             "team_1": "Manchester United        ",
             "team_2": "Bayern München           ",
             "first_turn": "0-1",
@@ -331,50 +683,348 @@
             "sum": "1-3"
         }
     },
-    "200102": {},
-    "200203": {},
-    "200304": {},
+    "200102": {
+        "1_Group_Match_1": {
+            "date": "Sep 18",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "1",
+            "team_2": " Lille OSC               ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_2": {
+            "date": "Sep 25",
+            "team_1": "Deportivo La Coruña     ",
+            "team_1_goal": "2",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "1_Group_Match_3": {
+            "date": "Oct 10",
+            "team_1": "Olympiakos              ",
+            "team_1_goal": "0",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "2"
+        },
+        "1_Group_Match_4": {
+            "date": "Oct 17",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "2",
+            "team_2": " Deportivo La Coruña     ",
+            "team_2_goal": "3"
+        },
+        "1_Group_Match_5": {
+            "date": "Oct 23",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "3",
+            "team_2": " Olympiakos              ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_6": {
+            "date": "Oct 31",
+            "team_1": "Lille OSC               ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "1_Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "3",
+            "draw": "1",
+            "lose": "2",
+            "goals": "10",
+            "lose_goals": "6",
+            "score": "10"
+        },
+        "2_Group_Match_1": {
+            "date": "Nov 20",
+            "team_1": "Bayern München          ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "2_Group_Match_2": {
+            "date": "Dec  5",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "3",
+            "team_2": " Boavista FC             ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_3": {
+            "date": "Feb 20",
+            "team_1": "FC Nantes               ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "2_Group_Match_4": {
+            "date": "Feb 26",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "5",
+            "team_2": " FC Nantes               ",
+            "team_2_goal": "1"
+        },
+        "2_Group_Match_5": {
+            "date": "Mar 13",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "0",
+            "team_2": " Bayern München          ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_6": {
+            "date": "Mar 19",
+            "team_1": "Boavista FC             ",
+            "team_1_goal": "0",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "3"
+        },
+        "2_Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "3",
+            "draw": "3",
+            "lose": "0",
+            "goals": "13",
+            "lose_goals": "3",
+            "score": "12"
+        },
+        "1_8_final": {
+            "team_1": "Deportivo La Coruña      ",
+            "team_2": "Manchester United        ",
+            "first_turn": "0-2",
+            "second_turn": "2-3",
+            "sum": "2-5"
+        },
+        "Quarter_Finals": {
+            "team_1": "Manchester United        ",
+            "team_2": "Bayer Leverkusen         ",
+            "first_turn": "2-2",
+            "second_turn": "1-1",
+            "sum": "3-3"
+        }
+    },
+    "200203": {
+        "1_Group_Match_1": {
+            "date": "Sep 18",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "5",
+            "team_2": " Maccabi Haifa           ",
+            "team_2_goal": "2"
+        },
+        "1_Group_Match_2": {
+            "date": "Sep 24",
+            "team_1": "Bayer Leverkusen        ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "2"
+        },
+        "1_Group_Match_3": {
+            "date": "Oct  1",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "4",
+            "team_2": " Olympiakos              ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_4": {
+            "date": "Oct 23",
+            "team_1": "Olympiakos              ",
+            "team_1_goal": "2",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "3"
+        },
+        "1_Group_Match_5": {
+            "date": "Oct 29",
+            "team_1": "Maccabi Haifa           ",
+            "team_1_goal": "3",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_6": {
+            "date": "Nov 13",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "2",
+            "team_2": " Bayer Leverkusen        ",
+            "team_2_goal": "0"
+        },
+        "1_Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "5",
+            "draw": "0",
+            "lose": "1",
+            "goals": "16",
+            "lose_goals": "8",
+            "score": "15"
+        },
+        "2_Group_Match_1": {
+            "date": "Nov 26",
+            "team_1": "FC Basel                ",
+            "team_1_goal": "1",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "3"
+        },
+        "2_Group_Match_2": {
+            "date": "Dec 11",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "2",
+            "team_2": " Deportivo La Coruña     ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_3": {
+            "date": "Feb 19",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "2",
+            "team_2": " Juventus                ",
+            "team_2_goal": "1"
+        },
+        "2_Group_Match_4": {
+            "date": "Feb 25",
+            "team_1": "Juventus                ",
+            "team_1_goal": "0",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "3"
+        },
+        "2_Group_Match_5": {
+            "date": "Mar 12",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "1",
+            "team_2": " FC Basel                ",
+            "team_2_goal": "1"
+        },
+        "2_Group_Match_6": {
+            "date": "Mar 18",
+            "team_1": "Deportivo La Coruña     ",
+            "team_1_goal": "2",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "0"
+        },
+        "2_Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "4",
+            "draw": "1",
+            "lose": "1",
+            "goals": "11",
+            "lose_goals": "5",
+            "score": "13"
+        },
+        "1_8_final": {
+            "team_1": "Real Madrid              ",
+            "team_2": "Manchester United        ",
+            "first_turn": "3-1",
+            "second_turn": "3-4",
+            "sum": "6-5"
+        },
+        "Quarter_Finals": {
+            "team_1": "1.VAN NISTELROOY Rud     ",
+            "team_2": "Manchester United)       ",
+            "first_turn": "ls",
+            "second_turn": "",
+            "sum": ""
+        }
+    },
+    "200304": {
+        "Group_Match_1": {
+            "date": "Sep 16",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "5",
+            "team_2": " Panathinaikos           ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_2": {
+            "date": "Oct  1",
+            "team_1": "VfB Stuttgart           ",
+            "team_1_goal": "2",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_3": {
+            "date": "Oct 22",
+            "team_1": "Rangers (Glasgow)       ",
+            "team_1_goal": "0",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_4": {
+            "date": "Nov  4",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "3",
+            "team_2": " Rangers (Glasgow)       ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_5": {
+            "date": "Nov 26",
+            "team_1": "Panathinaikos           ",
+            "team_1_goal": "0",
+            "team_2": " Manchester United       ",
+            "team_2_goal": "1"
+        },
+        "Group_Match_6": {
+            "date": "Dec  9",
+            "team_1": "Manchester United       ",
+            "team_1_goal": "2",
+            "team_2": " VfB Stuttgart           ",
+            "team_2_goal": "0"
+        },
+        "Group_Match_Result": {
+            "team": "Manchester United         ",
+            "matches": "6",
+            "win": "5",
+            "draw": "0",
+            "lose": "1",
+            "goals": "13",
+            "lose_goals": "2",
+            "score": "15"
+        },
+        "1_8_final": {
+            "team_1": "FC Porto                 ",
+            "team_2": "Manchester United        ",
+            "first_turn": "2-1",
+            "second_turn": "1-1",
+            "sum": "3-2"
+        }
+    },
     "200405": {
         "Group_Match_1": {
             "date": "Sep 15",
             "team_1": "Olympique Lyonnais      ",
             "team_1_goal": "2",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "2"
         },
         "Group_Match_2": {
             "date": "Sep 28",
             "team_1": "Manchester United       ",
             "team_1_goal": "6",
-            "team_2": "Fenerbahçe SK (Istanbul) ",
+            "team_2": " Fenerbahçe SK (Istanbul)",
             "team_2_goal": "2"
         },
         "Group_Match_3": {
             "date": "Oct 19",
             "team_1": "AC Sparta Praha         ",
             "team_1_goal": "0",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  3",
             "team_1": "Manchester United       ",
             "team_1_goal": "4",
-            "team_2": "AC Sparta Praha          ",
+            "team_2": " AC Sparta Praha         ",
             "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 23",
             "team_1": "Manchester United       ",
             "team_1_goal": "2",
-            "team_2": "Olympique Lyonnais       ",
+            "team_2": " Olympique Lyonnais      ",
             "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  8",
             "team_1": "Fenerbahçe SK (Istanbul)",
             "team_1_goal": "3",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "0"
         },
         "Group_Match_Result": {
@@ -400,42 +1050,42 @@
             "date": "Sep 14",
             "team_1": "Villarreal CF           ",
             "team_1_goal": "0",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 27",
             "team_1": "Manchester United       ",
             "team_1_goal": "2",
-            "team_2": "SL Benfica               ",
+            "team_2": " SL Benfica              ",
             "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 18",
             "team_1": "Manchester United       ",
             "team_1_goal": "0",
-            "team_2": "Lille OSC                ",
+            "team_2": " Lille OSC               ",
             "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  2",
             "team_1": "Lille OSC               ",
             "team_1_goal": "1",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 22",
             "team_1": "Manchester United       ",
             "team_1_goal": "0",
-            "team_2": "Villarreal CF            ",
+            "team_2": " Villarreal CF           ",
             "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec  7",
             "team_1": "SL Benfica              ",
             "team_1_goal": "2",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "1"
         },
         "Group_Match_Result": {
@@ -454,42 +1104,42 @@
             "date": "Sep 13",
             "team_1": "Manchester United       ",
             "team_1_goal": "3",
-            "team_2": "Celtic                   ",
+            "team_2": " Celtic                  ",
             "team_2_goal": "2"
         },
         "Group_Match_2": {
             "date": "Sep 26",
             "team_1": "SL Benfica (Lisboa)     ",
             "team_1_goal": "0",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 17",
             "team_1": "Manchester United       ",
             "team_1_goal": "3",
-            "team_2": "FC København             ",
+            "team_2": " FC København            ",
             "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  1",
             "team_1": "FC København            ",
             "team_1_goal": "1",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 21",
             "team_1": "Celtic                  ",
             "team_1_goal": "1",
-            "team_2": "Manchester United        ",
+            "team_2": " Manchester United       ",
             "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec  6",
             "team_1": "Manchester United       ",
             "team_1_goal": "3",
-            "team_2": "SL Benfica (Lisboa)      ",
+            "team_2": " SL Benfica (Lisboa)     ",
             "team_2_goal": "1"
         },
         "Group_Match_Result": {
@@ -529,42 +1179,42 @@
             "date": "Sep 19",
             "team_1": "Sporting CP (Lisboa)    ",
             "team_1_goal": "0",
-            "team_2": "anchester United         ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Oct  2",
             "team_1": "Manchester United       ",
             "team_1_goal": "1",
-            "team_2": "S Roma                   ",
+            "team_2": "AS Roma                  ",
             "team_2_goal": "0"
         },
         "Group_Match_3": {
             "date": "Oct 23",
             "team_1": "Dynamo Kyiv             ",
             "team_1_goal": "2",
-            "team_2": "anchester United         ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "4"
         },
         "Group_Match_4": {
             "date": "Nov  7",
             "team_1": "Manchester United       ",
             "team_1_goal": "4",
-            "team_2": "ynamo Kyiv               ",
+            "team_2": "Dynamo Kyiv              ",
             "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 27",
             "team_1": "Manchester United       ",
             "team_1_goal": "2",
-            "team_2": "porting CP (Lisboa)      ",
+            "team_2": "Sporting CP (Lisboa)     ",
             "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec 12",
             "team_1": "AS Roma                 ",
             "team_1_goal": "1",
-            "team_2": "anchester United         ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_Result": {
@@ -604,6 +1254,13 @@
             "first_turn": "1-1",
             "second_turn": "6-5",
             "sum": ""
+        },
+        "ps": {
+            "team_1": "Manchester United        ",
+            "team_2": "Zenit Sankt-Peterburg    ",
+            "first_turn": "1-2",
+            "second_turn": "",
+            "sum": ""
         }
     },
     "200809": {
@@ -611,42 +1268,42 @@
             "date": "Sep 17",
             "team_1": "Manchester United       ",
             "team_1_goal": "0",
-            "team_2": "illarreal                ",
+            "team_2": "Villarreal               ",
             "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 30",
             "team_1": "AaB (Aalborg)           ",
             "team_1_goal": "0",
-            "team_2": "anchester United         ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "3"
         },
         "Group_Match_3": {
             "date": "Oct 21",
             "team_1": "Manchester United       ",
             "team_1_goal": "3",
-            "team_2": "eltic (Glasgow)          ",
+            "team_2": "Celtic (Glasgow)         ",
             "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  5",
             "team_1": "Celtic (Glasgow)        ",
             "team_1_goal": "1",
-            "team_2": "anchester United         ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_5": {
             "date": "Nov 25",
             "team_1": "Villarreal              ",
             "team_1_goal": "0",
-            "team_2": "anchester United         ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec 10",
             "team_1": "Manchester United       ",
             "team_1_goal": "2",
-            "team_2": "aB (Aalborg)             ",
+            "team_2": "AaB (Aalborg)            ",
             "team_2_goal": "2"
         },
         "Group_Match_Result": {
@@ -693,42 +1350,42 @@
             "date": "Sep 15",
             "team_1": "Besiktas JK (Istanbul)  ",
             "team_1_goal": "0",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Sep 30",
             "team_1": "Manchester United       ",
             "team_1_goal": "2",
-            "team_2": "fL Wolfsburg            ",
+            "team_2": "VfL Wolfsburg            ",
             "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 21",
             "team_1": "CSKA Moskva             ",
             "team_1_goal": "0",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  3",
             "team_1": "Manchester United       ",
             "team_1_goal": "3",
-            "team_2": "SKA Moskva              ",
+            "team_2": "CSKA Moskva              ",
             "team_2_goal": "3"
         },
         "Group_Match_5": {
             "date": "Nov 25",
             "team_1": "Manchester United       ",
             "team_1_goal": "0",
-            "team_2": "esiktas JK (Istanbul)   ",
+            "team_2": "Besiktas JK (Istanbul)   ",
             "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  8",
             "team_1": "VfL Wolfsburg           ",
             "team_1_goal": "1",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "3"
         },
         "Group_Match_Result": {
@@ -761,42 +1418,42 @@
             "date": "Sep 14",
             "team_1": "Manchester United       ",
             "team_1_goal": "0",
-            "team_2": "angers                  ",
+            "team_2": "Rangers                  ",
             "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Sep 29",
             "team_1": "Valencia CF             ",
             "team_1_goal": "0",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 20",
             "team_1": "Manchester United       ",
             "team_1_goal": "1",
-            "team_2": "ursaspor                ",
+            "team_2": "Bursaspor                ",
             "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  2",
             "team_1": "Bursaspor               ",
             "team_1_goal": "0",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "3"
         },
         "Group_Match_5": {
             "date": "Nov 24",
             "team_1": "Rangers                 ",
             "team_1_goal": "0",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_6": {
             "date": "Dec  7",
             "team_1": "Manchester United       ",
             "team_1_goal": "1",
-            "team_2": "alencia CF              ",
+            "team_2": "Valencia CF              ",
             "team_2_goal": "1"
         },
         "Group_Match_Result": {
@@ -843,42 +1500,42 @@
             "date": "Sep 14",
             "team_1": "SL Benfica (Lisboa)     ",
             "team_1_goal": "1",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Sep 27",
             "team_1": "Manchester United       ",
             "team_1_goal": "3",
-            "team_2": "C Basel                 ",
+            "team_2": "FC Basel                 ",
             "team_2_goal": "3"
         },
         "Group_Match_3": {
             "date": "Oct 18",
             "team_1": "Otelul Galati           ",
             "team_1_goal": "0",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "2"
         },
         "Group_Match_4": {
             "date": "Nov  2",
             "team_1": "Manchester United       ",
             "team_1_goal": "2",
-            "team_2": "telul Galati            ",
+            "team_2": "Otelul Galati            ",
             "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 22",
             "team_1": "Manchester United       ",
             "team_1_goal": "2",
-            "team_2": "L Benfica (Lisboa)      ",
+            "team_2": "SL Benfica (Lisboa)      ",
             "team_2_goal": "2"
         },
         "Group_Match_6": {
             "date": "Dec  7",
             "team_1": "FC Basel                ",
             "team_1_goal": "2",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_Result": {
@@ -890,6 +1547,20 @@
             "goals": "11",
             "lose_goals": "8",
             "score": "9"
+        },
+        "1_8_final": {
+            "team_1": "Ajax                     ",
+            "team_2": "Manchester United        ",
+            "first_turn": "0-2",
+            "second_turn": "2-1",
+            "sum": "2-3"
+        },
+        "Quarter_Finals": {
+            "team_1": "Manchester United        ",
+            "team_2": "Athletic Bilbao          ",
+            "first_turn": "2-3",
+            "second_turn": "1-2",
+            "sum": "3-5"
         }
     },
     "201213": {
@@ -897,42 +1568,42 @@
             "date": "Sep 19",
             "team_1": "Manchester United       ",
             "team_1_goal": "1",
-            "team_2": "alatasaray SK           ",
+            "team_2": "Galatasaray SK           ",
             "team_2_goal": "0"
         },
         "Group_Match_2": {
             "date": "Oct  2",
             "team_1": "CFR 1907 Cluj           ",
             "team_1_goal": "1",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "2"
         },
         "Group_Match_3": {
             "date": "Oct 23",
             "team_1": "Manchester United       ",
             "team_1_goal": "3",
-            "team_2": "C Braga                 ",
+            "team_2": "SC Braga                 ",
             "team_2_goal": "2"
         },
         "Group_Match_4": {
             "date": "Nov  7",
             "team_1": "SC Braga                ",
             "team_1_goal": "1",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "3"
         },
         "Group_Match_5": {
             "date": "Nov 20",
             "team_1": "Galatasaray SK          ",
             "team_1_goal": "1",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec  5",
             "team_1": "Manchester United       ",
             "team_1_goal": "0",
-            "team_2": "FR 1907 Cluj            ",
+            "team_2": "CFR 1907 Cluj            ",
             "team_2_goal": "1"
         },
         "Group_Match_Result": {
@@ -958,42 +1629,42 @@
             "date": "Sep 17",
             "team_1": "Manchester United       ",
             "team_1_goal": "4",
-            "team_2": "ayer Leverkusen         ",
+            "team_2": "Bayer Leverkusen         ",
             "team_2_goal": "2"
         },
         "Group_Match_2": {
             "date": "Oct  2",
             "team_1": "Shakhtar Donetsk        ",
             "team_1_goal": "1",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 23",
             "team_1": "Manchester United       ",
             "team_1_goal": "1",
-            "team_2": "eal Sociedad            ",
+            "team_2": "Real Sociedad            ",
             "team_2_goal": "0"
         },
         "Group_Match_4": {
             "date": "Nov  5",
             "team_1": "Real Sociedad           ",
             "team_1_goal": "0",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 27",
             "team_1": "Bayer Leverkusen        ",
             "team_1_goal": "0",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "5"
         },
         "Group_Match_6": {
             "date": "Dec 10",
             "team_1": "Manchester United       ",
             "team_1_goal": "1",
-            "team_2": "hakhtar Donetsk         ",
+            "team_2": "Shakhtar Donetsk         ",
             "team_2_goal": "0"
         },
         "Group_Match_Result": {
@@ -1027,42 +1698,42 @@
             "date": "Sep 15",
             "team_1": "PSV (Eindhoven)         ",
             "team_1_goal": "2",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_2": {
             "date": "Sep 30",
             "team_1": "Manchester United       ",
             "team_1_goal": "2",
-            "team_2": "fL Wolfsburg            ",
+            "team_2": "VfL Wolfsburg            ",
             "team_2_goal": "1"
         },
         "Group_Match_3": {
             "date": "Oct 21",
             "team_1": "CSKA Moskva             ",
             "team_1_goal": "1",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "1"
         },
         "Group_Match_4": {
             "date": "Nov  3",
             "team_1": "Manchester United       ",
             "team_1_goal": "1",
-            "team_2": "SKA Moskva              ",
+            "team_2": "CSKA Moskva              ",
             "team_2_goal": "0"
         },
         "Group_Match_5": {
             "date": "Nov 25",
             "team_1": "Manchester United       ",
             "team_1_goal": "0",
-            "team_2": "SV (Eindhoven)          ",
+            "team_2": "PSV (Eindhoven)          ",
             "team_2_goal": "0"
         },
         "Group_Match_6": {
             "date": "Dec  8",
             "team_1": "VfL Wolfsburg           ",
             "team_1_goal": "3",
-            "team_2": "anchester United        ",
+            "team_2": "Manchester United        ",
             "team_2_goal": "2"
         },
         "Group_Match_Result": {
@@ -1074,7 +1745,32 @@
             "goals": "6",
             "lose_goals": "6",
             "score": "8"
+        },
+        "1_8_final": {
+            "team_1": "FC Midtjylland           ",
+            "team_2": "Manchester United        ",
+            "first_turn": "2-1",
+            "second_turn": "1-5",
+            "sum": "3-6"
+        },
+        "Quarter_Finals": {
+            "team_1": "Liverpool                ",
+            "team_2": "Manchester United        ",
+            "first_turn": "2-0",
+            "second_turn": "1-1",
+            "sum": "3-1"
         }
     },
-    "201617": {}
+    "201617": {
+        "Group_Match_1": {
+            "team": "Manchester United         ",
+            "matches": "0",
+            "win": "0",
+            "draw": "0",
+            "lose": "0",
+            "goals": "0",
+            "lose_goals": "0",
+            "score": "0"
+        }
+    }
 }

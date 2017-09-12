@@ -14,7 +14,7 @@ def get_ics(schedule):
     cal = Calendar()
     cal['version'] = '2.0'
     cal['prodid'] = '-//CQUT//Syllabus//CN'  # *mandatory elements* where the prodid can be changed, see RFC 5445
-    start_monday = date(2017, 2, 20)  # 开学第一周星期一的时间 TODO: 从 http://cale.dc.cqut.edu.cn/Index.aspx?term=2016-2017 抓取开学时间
+    start_monday = date(2017, 9, 4)  # 开学第一周星期一的时间 TODO: 从 http://cale.dc.cqut.edu.cn/Index.aspx?term=2016-2017 抓取开学时间
     dict_week = {'一': 0, '二': 1, '三': 2, '四': 3, '五': 4, '六': 5, '日': 6}
     dict_day = {1: relativedelta(hours=8, minutes=0), 3: relativedelta(hours=10, minutes=10),
                 5: relativedelta(hours=14, minutes=0), 7: relativedelta(hours=16, minutes=10),
@@ -28,11 +28,12 @@ def get_ics(schedule):
         info_day = info_day[0]
         print(info_day)
         # info_day should be like this: ('三', '7', '8')
+        info_week = re.findall(r'第(\d+)-(\d+)周', line[2], re.S | re.M)
+        info_week = [('1','16')]
         try:
-            info_week = re.findall(r'第(\d+)-(\d+)周', line[2], re.S | re.M)
+            info_week = info_week[0]
         except:
-            info_week = [('1','16')]
-        info_week = info_week[0]
+            info_week = [('1', '16')]
         print(info_week)
         # info_week should be like this: ('10', '10')
 

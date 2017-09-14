@@ -32,7 +32,7 @@ def get_ics(schedule):
         try:
             info_week = info_week[0]
         except:
-            info_week = [('1', '16')]
+            info_week = ('1', '16')
         print(info_week)
         # info_week should be like this: ('10', '10')
 

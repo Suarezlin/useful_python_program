@@ -29,11 +29,10 @@ def get_ics(schedule):
         print(info_day)
         # info_day should be like this: ('三', '7', '8')
         info_week = re.findall(r'第(\d+)-(\d+)周', line[2], re.S | re.M)
-        info_week = [('1','16')]
         try:
             info_week = info_week[0]
         except:
-            info_week = [('1', '16')]
+            info_week = ('1', '16')
         print(info_week)
         # info_week should be like this: ('10', '10')
 

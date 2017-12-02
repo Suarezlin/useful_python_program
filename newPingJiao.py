@@ -1,9 +1,10 @@
-# /usr/bin/ python3
+#!/usr/bin/ python3
 import requests
 import re
 from bs4 import BeautifulSoup
 import random
 import time
+import getpass
 
 
 class B(object):
@@ -34,8 +35,8 @@ class PingJiao():
     def logIn(self):
         print('请输入NetID：')
         self.username = input()
-        print('请输入密码：')
-        self.password = input()
+        print('请输入密码(密码不显示在屏幕上，输入完成后按回车)：')
+        self.password = getpass.getpass()
         print('登录中请稍候')
         str = '登录'
         str = str.encode('utf-8')
@@ -81,7 +82,7 @@ class PingJiao():
     def processPingjiao(self):
         infos = self.getPingjiaoInfo()
         for info in infos:
-            if info['assessment'] == 'allow':
+            if info['assessment'] == 'allow' and info['pjlbmc'] is not None:
                 form = self.getPingjiaoTable(info)
                 params = {
                     "standard_id": form['elements'][0]['value'],
@@ -112,6 +113,8 @@ class PingJiao():
                 else:
                     print(info['kcmc'] + " " + info[
                         'jsxm'] + " 评教失败 错误代码: " + str(res.status_code))
+            else:
+                print(info['kcmc'] + " " + info['jsxm'] + " 已评教")
 
 
 if __name__ == '__main__':

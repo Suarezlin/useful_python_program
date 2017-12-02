@@ -117,4 +117,5 @@ class PingJiao():
 if __name__ == '__main__':
     pingjiao = PingJiao()
     pingjiao.processPingjiao()
+    print("评教完成，按回车退出")
     end = input()

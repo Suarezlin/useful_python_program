@@ -1,10 +1,10 @@
 #!/usr/bin/ python3
 import requests
 import re
-from bs4 import BeautifulSoup
 import random
 import time
 import getpass
+import sys
 
 
 class B(object):
@@ -18,14 +18,13 @@ class Webix(object):
 class PingJiao():
     def __init__(self):
         self.login = 'https://cas.xjtu.edu.cn/login'
-        self.postUrl = 'http://ssfw.xjtu.edu.cn/index.portal'
         self.pingjiaoInfoUrl = 'http://zhpj.xjtu.edu.cn/app/sshd4Stu/list.do?key=value'
         self.pingjiaoTableUrl = 'http://zhpj.xjtu.edu.cn/app/student/genForm.do?assessment={}&cj_able={}&data_jxb_id={}&data_jxb_js_id={}&hbqk={}&jsbh={}&jsxm={}&jxbid={}&kcdm={}&kcmc={}&msgbutton={}&pjlbmc={}&skls_duty=&xnxqdm={}&id={}'
         self.saveformUrl = 'http://zhpj.xjtu.edu.cn/app/student/saveForm.do'
         self.session = requests.session()
 
     def getLt(self):
-        request = self.session.get(self.postUrl)
+        request = self.session.get(self.login)
         request = request.text
         str = 'name="lt" value="(.*?)"'
         pattern = re.compile(str, re.S)
@@ -38,8 +37,6 @@ class PingJiao():
         print('请输入密码(密码不显示在屏幕上，输入完成后按回车)：')
         self.password = getpass.getpass()
         print('登录中请稍候')
-        str = '登录'
-        str = str.encode('utf-8')
         postdata = {
             'username': self.username,
             'password': self.password,
@@ -47,15 +44,15 @@ class PingJiao():
             'lt': self.getLt(),
             'execution': 'e1s1',
             '_eventId': 'submit',
-            'submit': str
+            'submit': '登录'.encode('utf-8')
         }
-        self.session.post(self.login, postdata)
-        r = self.session.get(self.postUrl)
-        soup = BeautifulSoup(r.text, 'html.parser').find('meta').get('content')[
-               6:]
-        # self.session.get(soup)
-        # 登录完成
-        print("登录成功")
+        res = self.session.post(self.login, postdata)
+        pattern = re.compile('.*?<div id="msg" class="errorsphone">(.*?)</div>.*?', re.S)
+        if (re.match(pattern, res.text) is None):
+            print("登录成功")
+        else:
+            print("登录失败，请检查用户名与密码是否正确")
+            sys.exit()
 
     def getPingjiaoInfo(self):
         self.logIn()
@@ -120,3 +117,4 @@ class PingJiao():
 if __name__ == '__main__':
     pingjiao = PingJiao()
     pingjiao.processPingjiao()
+    end = input()

@@ -35,15 +35,15 @@ cookieUrl = 'https://api.pubgtracker.com/cdn-cgi/l/chk_jschl?jschl_vc={}&pass={}
     jschl_vc, Pass, r)
 
 cookieHeaders = {
-    ':authority': 'api.pubgtracker.com',
-    ':method': 'GET',
-    ':path': '/cdn-cgi/l/chk_jschl?jschl_vc={}&pass={}&jschl_answer={}'.format(jschl_vc, Pass, r),
-    ':scheme': 'https',
+    # 'authority': 'api.pubgtracker.com',
+    # 'method': 'GET',
+    # 'path': '/cdn-cgi/l/chk_jschl?jschl_vc={}&pass={}&jschl_answer={}'.format(jschl_vc, Pass, r),
+    # 'scheme': 'https',
     "TRN-Api-Key": key,
     "referer": url,
 }
-res1 = session.get(cookieUrl, headers=cookieHeaders)
-res = session.get(url, headers=headers)
+res1 = session.get(cookieUrl, headers=cookieHeaders, allow_redirects=False)
+res = session.get(url, headers=cookieHeaders)
 print(r)
 
 print(jschl_vc)

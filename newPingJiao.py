@@ -47,7 +47,8 @@ class PingJiao():
             'submit': '登录'.encode('utf-8')
         }
         res = self.session.post(self.login, postdata)
-        pattern = re.compile('.*?<div id="msg" class="errorsphone">(.*?)</div>.*?', re.S)
+        pattern = re.compile(
+            '.*?<div id="msg" class="errorsphone">(.*?)</div>.*?', re.S)
         if (re.match(pattern, res.text) is None):
             print("登录成功")
         else:
